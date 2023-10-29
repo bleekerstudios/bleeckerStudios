@@ -26,8 +26,7 @@ const Company = () => {
                 
             
             >
-                // eslint-disable-next-line react/no-unescaped-entities
-                <p>We have a few different ways to begin. You can give us a call, email us, or send us your info below and we'll reach out.</p>
+                <p>We have a few different ways to begin. You can give us a call, email us, or send us your info below and we&apos;ll reach out.</p>
                 
         
      <div className="button-container  md:flex flex-wrap gap-4 ml-auto justify-center">
