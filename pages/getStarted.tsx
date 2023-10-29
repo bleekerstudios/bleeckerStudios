@@ -32,7 +32,7 @@ const Company = () => {
      <div className="button-container  md:flex flex-wrap gap-4 ml-auto justify-center">
 
                 <ButtonGroup className = "wrap wrap-px" >
-                    <Button variant={ButtonVariant.secondary} text="Contact" link="/Contact" />
+                    <Button variant={ButtonVariant.secondary} text="Contact" link="/contact" />
                 </ButtonGroup>
 
                 </div>
