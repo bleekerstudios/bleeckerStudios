@@ -14,7 +14,7 @@ const SubscribeForm = ( {alignment}:SubscribeFormProps ) => {
 
     function handleSubmit(event) {
         event.preventDefault()
-        alert(`${email} submitted the form. You are now added to mailing list.`)
+        alert(`${email} Thank you. we'll be in touch shortly.`)
     }
 
     return(
@@ -24,7 +24,7 @@ const SubscribeForm = ( {alignment}:SubscribeFormProps ) => {
                     <input 
                         className="form-input placeholder-black/60 bg-transparent w-full pl-8 focus-visible:border-0 focus-visible:outline-none" 
                         id="email"
-                        placeholder="johndoe@email.com"
+                        placeholder="janedoe@email.com"
                         type="email"
                         required
                         onChange={(e) => setEmail(e.target.value)}

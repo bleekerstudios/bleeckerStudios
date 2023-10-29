@@ -6,6 +6,16 @@ import Button, { ButtonVariant } from "@components/Button/Button"
 import BadgeContext from "@components/Badge/BadgeContext"
 import BadgeMessage from "@components/Badge/BadgeMessage"
 import BadgeIcon from "@components/Badge/BadgeIcon"
+
+
+function handleButtonClick() {
+    window.location.href = 'https://bleekerstudios.retool.com/embedded/public/859a2557-e00f-480c-a2e4-2d5429e75f77';
+  }
+ 
+  
+
+
+
 const Hero = () => {
     const alignment = "center"
 
@@ -14,24 +24,25 @@ const Hero = () => {
             <div className="hero-content-container py-16 ">
                 <BadgeGroup alignment={alignment}>
                     <BadgeContext>
-                        <span>V0.2</span>
+                        <span></span>
                     </BadgeContext>
                     <BadgeMessage>
-                        Welcome to Pathway!
+                        Welcome
                     </BadgeMessage>
                     <BadgeIcon icon="mdi:map-marker-path"/>
                 </BadgeGroup>
                 <SectionContent 
-                    title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    title = "Bleecker Studios"
                     alignment = {alignment}
                     isBigHeader = {true}
                 >
-                    <p>Fusce ac nulla non urna posuere malesuada eget id ipsum. Praesent vitae sem nisl. Donec in est ut odio sagittis dapibus in commodo mi.</p>
+                    <h3>Everyone has ideas, we bring them to life.  </h3>
+                    <p>We build & deploy technology solutions that will save you time, money, and energy</p>
                 </SectionContent>
                 <ButtonGroup className = "wrap-sm wrap-px" alignment={alignment}>
                     <Button 
                         text="Get Started" 
-                        link="/about"
+                        link="/getStarted"
                         icon="ph:arrow-right-bold"
                         variant={ButtonVariant.primary}
                     />
@@ -40,7 +51,24 @@ const Hero = () => {
                         link="/contact"
                         variant={ButtonVariant.secondary}
                     />
+
+
+
+
+                   
+                    
                 </ButtonGroup>
+
+             
+
+
+
+
+
+
+
+
+
             </div>
             <SectionImage 
                 src="/images/Hero.jpg"

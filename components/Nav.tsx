@@ -4,10 +4,14 @@ import { Icon } from "@iconify/react";
 import { useRouter } from "next/router";
 
 const navigation = [
-  { name: "Use cases", href: "/use-cases" },
-  { name: "Pricing", href: "/pricing" },
-  { name: "Company", href: "/company" },
-  { name: "About", href: "/about" }
+  { name: "How We Work", href: "/howwework" },
+  { name: "Services", href: "Services" },
+  { name: "Use Cases", href: "https://bleeker-docs.vercel.app" },
+
+  { name: "About", href: "/about" },
+
+
+
 ];
 
 const Nav = () => {

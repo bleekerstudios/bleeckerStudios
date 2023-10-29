@@ -40,7 +40,7 @@ const Logos = () => {
         <section className="logos-container wrap wrap-px">
             <div className="logos-content-container p-8 md:p-16 rounded-2xl my-24 bg-badge gap-y-8">
                 <div className="content-container text-black/60 text-center">
-                    <p>Trusted and used by over 624 companies.</p>
+                    <p>Current Partnerships</p>
                 </div>
                 <LogoContainer>
                     {

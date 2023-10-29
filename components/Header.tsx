@@ -11,29 +11,29 @@ const Header = () => {
                     <h1>
                         <Link href="/" className="logo">
                             <Image 
-                                src="/icons/Pathway.svg" 
+                                src="/images/blackestmask.png" 
                                 alt="logo"
-                                className="h-6 w-auto"
+                                className="h-10 w-auto"
                                 height="25"
                                 width="100"
                                 priority
                             />
                         </Link>
-                        <span className="hidden">Pathway Logo</span>
+                        <span className="hidden">Bleecker Logo</span>
                     </h1>
                 </div>
                 <Nav />
                 <div className="button-container hidden md:flex flex-wrap gap-4 ml-auto">
                     <Button 
-                        text="Sign Up"
-                        link="#"
+                        text="Learn More"
+                        link="getStarted"
                         variant={ButtonVariant.primary}
                     />
                     <Button 
-                        text="Login"
-                        link="#n"
+                        text="Contact"
+                        link="/contact"
                         variant={ButtonVariant.secondary}
-                    />
+                    /> 
                 </div>
             </div>
         </header>

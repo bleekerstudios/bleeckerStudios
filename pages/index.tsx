@@ -7,7 +7,7 @@ import SEO from '@components/SEO'
 
 
 const Home = () => {
-  const pageTitle = `Pathway | ${process.env.siteTitle} | A NextJS Landing Page`
+  const pageTitle = `Bleecker Studios `
   return (
     <div className="main-content-container">
         <SEO 

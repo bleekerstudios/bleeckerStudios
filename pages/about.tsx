@@ -1,8 +1,8 @@
 import SEO from '@components/SEO'
 import SectionContent from '@components/Section/SectionContent'
 import SectionImage from '@components/Section/SectionImage'
-import SectionHighlight from '@components/Section/SectionHighlight'
 import Logos from "@components/Logos"
+import Value from '@components/value'
 
 const About = () => {
     const pageTitle = `About | ${process.env.siteTitle} | Pathway`
@@ -12,32 +12,60 @@ const About = () => {
                 title={pageTitle}
                 description="Welcome to our website! We offer a wide range of products and services designed to help you achieve your goals. Whether you're looking for information, support, or simply want to learn more, we're here to help. Explore our site to find out more."
             />
+
+<SectionImage 
+                className="my-24"
+                src="/images/Hero2.jpg"
+                alt="About Page Hero"
+            />
             <SectionContent 
                 title = "About"
                 alignment = "left"
                 hasBlockPadding = {true}
             >
-                <p>Fusce ac nulla non urna posuere malesuada eget id ipsum. Praesent vitae sem nisl. Donec in est ut odio sagittis dapibus in commodo mi.</p>
+                <p>Bleecker Studios aims to simplify technology implementations. Our ethos is straightforward: Learn, build, and deploy. We streamline the journey from concept to realization, making collaboration effortless. Excited for the opportunity to partner with you.</p>
             </SectionContent>
+
+            <Logos/>
+
+            <SectionContent 
+                title = "Our Values"
+                alignment = "center"
+                hasBlockPadding = {true}
+            >
+                <Value/>
+            </SectionContent>
+            
+
+
+            <SectionContent 
+                title = "Our Story"
+
+                alignment = "right"
+                hasBlockPadding = {true}
+            >
+                <p></p>
+                <p>Over the past 15 years, the world has been flooded with technology. While we're passionate enthusiasts, we've witnessed companies adopt software and hardware that remains underutilized or even untouched. Tech sales often ensnare businesses in long-term contracts for tools that collect dust. Our mission is to assist individuals, regardless of their tech expertise, in finding solutions that truly resonate with their needs and minimize their technical debt. We believe in letting businesses concentrate on their core strengths - propelling their growth. Our goal is to harness technology in a way that serves you, reigniting your enthusiasm for it.</p>
+            </SectionContent>
+            
+
+            <SectionContent 
+                title = "Location"
+
+                alignment = "left"
+                hasBlockPadding = {true}
+            >   
+            <p></p>
+                <h3>New York, NY</h3>
+                <p> We operate as a remote-first company with a strong physical presence in NYC. We are experts at working collaboratively in any environment (in person, hybrid, and remote). </p>
+
+                <p>While remote-first expands our reach; We're advocates for real-time, face-to-face collaboration. From working sessions to on-site meetings, and even casual coffee catch-ups, we value connecting, learning, addressing challenges, and cultivating meaningful relationships.</p>
+            </SectionContent>
+            
             <SectionImage 
                 className="my-24"
                 src="/images/Hero6.jpg"
                 alt="About Page Hero"
-            />
-            <SectionContent 
-                alignment = "left"
-                hasBlockPadding = {true}
-            >
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam metus lorem, accumsan ac metus sed, ullamcorper convallis sem. Sed auctor est tellus, non placerat purus euismod eget.</p>
-                <p>Nulla placerat consequat sagittis. Sed congue ante at vehicula viverra. Cras quis aliquet purus. Mauris fermentum ultrices nunc, vitae scelerisque orci faucibus ac. Maecenas tincidunt tincidunt dolor, eu hendrerit nulla pharetra at. Donec vel condimentum magna.</p>
-            </SectionContent>
-            <SectionHighlight 
-                title="Lorem ipsum dolor sit"
-                content="Fusce ac nulla non urna posuere malesuada eget id ipsum. Praesent vitae sem nisl. Donec in est ut odio sagittis dapibus in commodo mi. Mauris fermentum ultrices nunc, vitae scelerisque orci faucibus ac. Maecenas tincidunt tincidunt dolor, eu hendrerit nulla pharetra at."
-                image="/images/highlight-2.jpg"
-                imageAlt="Lorem ipsum dolor sit"
-            />
-            <Logos
             />
         </div>
     )

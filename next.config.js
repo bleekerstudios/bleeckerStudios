@@ -7,11 +7,11 @@ const nextConfig = {
     includePaths: [path.join(__dirname, 'styles')],
   },
   env: {
-    siteTitle: 'Your Company',
+    siteTitle: 'Bleecker Studios',
     siteDescription: 'Your company description.',
     siteKeywords: 'your company keywords',
     siteUrl: 'You site url',
-    siteImagePreviewUrl: '/images/preview.jpeg',
+    siteImagePreviewUrl: '/images/blackestmask.png',
     twitterHandle: '@your_handle'
   } 
 }

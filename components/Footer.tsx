@@ -14,29 +14,22 @@ const DATA = [
         href: '/about' 
     },
     { 
-        label: 'Company', 
-        href: '/company' 
+        label: 'Contact', 
+        href: '/contact' 
     },
-    { 
-        label: 'Pricing', 
-        href: '/pricing' 
-    },
-    { 
-        label: 'Projects', 
-        href: '#',
-        isNew: true
-    },
+   
+    
     {
         label: 'Email',
-        href: 'mailto:hey@cjluntok.com'
+        href: 'mailto:info@bleecker-studios.com'
     },
     {
         label: 'Instagram',
         href: 'https://www.instagram.com/'
     },
     {
-        label: 'Twitter',
-        href: 'https://twitter.com/'
+        label: 'LinkedIn',
+        href: 'https://www.linkedin.com/'
     }
 ]
 
@@ -84,7 +77,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="footer-credits text-black/60">
-                        <p>© {year} - Pathway. All rights reserved. <span className="font-semibold">Pathway by <Link className="hover:text-primary-500 transition-colors duration-300" href="https://cjluntok.com" target="_blank">cjluntok.com</Link></span></p>
+                        <p>© {year} - Bleecker Studios. All rights reserved. <span className="font-semibold"> <Link className="hover:text-primary-500 transition-colors duration-300" href="https://cjluntok.com" target="_blank"></Link></span></p>
                     </div>
                 </div>
             </section>

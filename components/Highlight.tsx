@@ -5,42 +5,34 @@ import Button, { ButtonVariant } from "@components/Button/Button"
 
 const DATA = [
     {
-      title: 'Highlight #1',
-      content: `Ipsum qui exercitation excepteur qui sint consectetur officia quis ex.
-      Amet adipisicing do aute ad tempor ut sit occaecat deserunt esse velit enim anim id. 
-      Aliquip cillum eiulgod irure cillum est sunt laboris tempor consequat elit ullamco. 
-      Ipsum dolor culpa dolor ea.`,
+      title: 'Phase 1 | Solution Design',
+      content: `Working sessions, deep discovery, and understanding your organizations' challenges.
+      In this phase we'll work to identify opportunities for improvement and design a solution that fits your needs`,
       image: '/images/highlight-1.jpg',
       imageAltTag: 'highlight-1',
       icon: 'ph:lightning',
-      link: '/pricing',
-      linkTitle: 'Pricing',
+      link: '/Services',
+      linkTitle: 'About Us',
       reversed: false
     },
     {
-      title: 'Higlight #2',
-      content: `Ipsum qui exercitation excepteur qui sint consectetur officia quis ex. 
-      Amet adipisicing do aute ad tempor ut sit occaecat deserunt esse velit enim anim id. 
-      Aliquip cillum eiulgod irure cillum est sunt laboris tempor consequat elit ullamco. 
-      Ipsum dolor culpa dolor ea.`,
+      title: 'Phase 2 | Develop + Integrate',
+      content: `Build. Iterate. Integrate. In Phase 2, we focus on materializing your solution. We'll actively seek feedback and ensure close collaboration throughout this implementation stage.`,
       image: '/images/highlight-2.jpg',
       imageAltTag: 'highlight-2',
       icon: 'lucide:mouse-pointer',
-      link: '/get-started',
-      linkTitle: 'Get Started',
+      link: '/contact',
+      linkTitle: 'Contact Us',
       reversed: true
     },
     {
-      title: 'Highlight #3',
-      content: `Ipsum qui exercitation excepteur qui sint consectetur officia quis ex. 
-      Amet adipisicing do aute ad tempor ut sit occaecat deserunt esse velit enim anim id. 
-      Aliquip cillum eiulgod irure cillum est sunt laboris tempor consequat elit ullamco. 
-      Ipsum dolor culpa dolor ea.`,
+      title: 'Phase 3 | Deploy & Educate',
+      content: `Phase 3: Launch! Once the solution is rolled out, we'll design a custom offboarding strategy. This will encompass a support portal, enablement resources, and additional guidance to efficiently ramp your team and guarantee a smooth transition and adoption`,
       image: '/images/highlight-3.jpg',
       imageAltTag: 'highlight-3',
       icon: 'ph:lightning',
-      link: '/about',
-      linkTitle: 'Learn More',
+      link: '/getStarted',
+      linkTitle: 'Get Started',
       reversed: false
     }
   ]
@@ -51,17 +43,17 @@ const Highlight = () => {
         <section className="highlight-container my-24">
             <div className="highlight-content mb-16">
                 <SectionContent 
-                    title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                    subheading = "Subheading"
+                    title = "Building What You Need, Exactly How You Need It"
+                    subheading = "Our Approach"
                     alignment = {alignment}
                     isBigHeader = {false}
                 >
-                  <p>Ipsum qui exercitation excepteur qui sint consectetur officia quis ex. </p>
-                  <p>Fusce ac nulla non urna posuere malesuada eget id ipsum. Praesent vitae sem nisl. Donec in est ut odio sagittis dapibus in commodo mi.</p>
+                  <p></p>
+                  <p>Our workflow is segmented into three phases. See the breakdown below.</p>
                 </SectionContent>
                 <ButtonGroup className = "wrap wrap-px" alignment={alignment} >
-                    <Button variant={ButtonVariant.primary} text="About" link="/about" icon="ph:arrow-right-bold" />
-                    <Button variant={ButtonVariant.secondary} text="Company" link="/company" />
+                    <Button variant={ButtonVariant.primary} text="Services" link="/Services" icon="ph:arrow-right-bold" />
+                    <Button variant={ButtonVariant.secondary} text="Contact" link="/Contact" />
                 </ButtonGroup>
             </div>
             <div className="highlight-image-container">
