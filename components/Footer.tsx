@@ -6,8 +6,8 @@ const DATA = [
         href: '/' 
     },
     { 
-        label: 'Use Cases', 
-        href: '/use-cases' 
+        label: 'Services', 
+        href: '/Services' 
     },
     { 
         label: 'About', 
@@ -17,11 +17,15 @@ const DATA = [
         label: 'Contact', 
         href: '/contact' 
     },
+    { 
+        label: 'Get Started', 
+        href: '/getStarted' 
+    },
    
     
     {
-        label: 'Email',
-        href: 'mailto:info@bleecker-studios.com'
+        label: 'Use Cases',
+        href: 'https://bleeker-docs.vercel.app/'
     },
     {
         label: 'Instagram',
