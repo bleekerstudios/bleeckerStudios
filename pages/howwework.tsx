@@ -19,6 +19,8 @@ const Company = () => {
                 title = "How We Work"
                 alignment = "left"
                 hasBlockPadding = {true}
+                icon="lucide:truck"
+
             >
                 <p>Our approach is built on a framework that prioritizes active engagement with our partners, component based architecture, and intentonal design.</p>
             </SectionContent>

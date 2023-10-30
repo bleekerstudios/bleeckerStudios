@@ -55,12 +55,12 @@ yarn dev
 
 ```js
 env: {
-  siteTitle: 'Your Company',
+  siteTitle: 'Bleecker Studios',
   siteDescription: 'Your company description.',
   siteKeywords: 'your company keywords',
   siteUrl: 'https://pathway-cl.vercel.app/',
-  siteImagePreviewUrl: '/images/preview.jpeg',
-  twitterHandle: '@your_handle'
+  siteImagePreviewUrl: '/images/blackestmask.png',
+  twitterHandle: '@bleeckerstudios'
 } 
 ```
 ---

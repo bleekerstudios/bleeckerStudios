@@ -10,7 +10,7 @@ const DATA = [
       In this phase we'll work to identify opportunities for improvement and design a solution that fits your needs`,
       image: '/images/highlight-1.jpg',
       imageAltTag: 'highlight-1',
-      icon: 'ph:lightning',
+      icon: 'ph:lightbulb',
       link: '/Services',
       linkTitle: 'About Us',
       reversed: false
@@ -20,7 +20,7 @@ const DATA = [
       content: `Build. Iterate. Integrate. In Phase 2, we focus on materializing your solution. We'll actively seek feedback and ensure close collaboration throughout this implementation stage.`,
       image: '/images/highlight-2.jpg',
       imageAltTag: 'highlight-2',
-      icon: 'lucide:mouse-pointer',
+      icon: 'lucide:wrench',
       link: '/contact',
       linkTitle: 'Contact Us',
       reversed: true
@@ -30,7 +30,7 @@ const DATA = [
       content: `Phase 3: Launch! Once the solution is rolled out, we'll design a custom offboarding strategy. This will encompass a support portal, enablement resources, and additional guidance to efficiently ramp your team and guarantee a smooth transition and adoption`,
       image: '/images/highlight-3.jpg',
       imageAltTag: 'highlight-3',
-      icon: 'ph:lightning',
+      icon: 'lucide:plane-takeoff',
       link: '/getStarted',
       linkTitle: 'Get Started',
       reversed: false

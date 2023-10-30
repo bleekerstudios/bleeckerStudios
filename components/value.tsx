@@ -2,26 +2,27 @@ import FeatureContent from "@components/Feature/FeatureContent"
 
 const DATA = [
     {
-      title: 'Test 3',
-      content: `Stop,drop,roll`,
-      icon: 'ph:lightning',
+      title: 'Active Listening',
+      content: `Active listening is the foundation of our practice. It lays the ground work, based on what we learn we can create, build, and succeeed in our partnerships`,
+      icon: 'lucide:ear',
       link: '/howwework',
       linkTitle: 'How We Work'
     },
     {
-      title: 'Test2',
-      content: `catchy phrase here`,
-      icon: 'lucide:mouse-pointer',
+      title: 'Understanding Why',
+      content: `Delving deep to understand the 'why' behind every challenge is crucial for our success. We prioritize grasping the core reasons and motivations driving the projects and goals of our clients. This depth of understanding allows us to create solutions that are not just effective but also empathetically aligned with our clients' objectives and the needs of their audiences.`,
+      icon: 'lucide:ear',
       link: '/Services',
       linkTitle: 'Services'
     },
     {
-      title: 'Test 1',
-      content: `more catchy stuff`,
+      title: 'Evading "Paralysis Through Analysis"',
+      content: `While we value thorough analysis and informed decision-making, we also recognize the trap of over-analysis — where opportunities can be lost in the mire of indecision. Our team strives to strike the right balance between thoughtful deliberation and timely action. We firmly believe you need to put one foot in front of the other and we focus on making decisions that keep projects moving forward, ensuring efficiency and momentum.`,
       icon: 'ph:lightning',
       link: '/getStarted',
       linkTitle: 'Get Started'
     }
+   
   ]
 
 const Value = () => {

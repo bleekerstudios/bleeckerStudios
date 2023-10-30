@@ -17,6 +17,8 @@ const UseCases = () => {
                 title = "Services"
                 alignment = "left"
                 hasBlockPadding = {true}
+                icon="lucide:package"
+
             >
                 <p>At Bleeker Studios, we pride ourselves on creating custom solutions that tackle real-world challenges faced by our partners. Below are some services that showcase how we can improve operational efficiency, reduce costs, and enhance user experiences:</p>
 
@@ -34,6 +36,7 @@ const UseCases = () => {
             </SectionContent>
             
             <SectionHighlight 
+                icon= 'lucide:settings'
                 title="Deploy Tools & Streamline Your Workflows"
                 content="Reduce employee overhead, manual processes, and workplace redundancies with low-cost automated solutions. Or, deploy solutions to help your employees work faster, smarter, and happier."
                 image="/images/Hero5.jpg"
@@ -46,6 +49,8 @@ const UseCases = () => {
                 
            <SectionContent 
                 title = "Expand Your Digital Footprint"
+                icon= 'lucide:clapperboard'
+
                 alignment = "center"
                 hasBlockPadding = {true}
             >
@@ -63,12 +68,15 @@ const UseCases = () => {
             
             <SectionHighlight 
                 title="Software Development"
+                icon="lucide:code-2"
                 content="Deliever best in class content that appeals to the masses"
                 image="/images/highlight-2.jpg"
                 imageAlt="Lorem ipsum dolor sit"
             />
              <SectionContent 
                 title = "Business Development"
+                icon="lucide:bar-chart-big"
+
                 alignment = "center"
                 hasBlockPadding = {true}
             >
@@ -84,6 +92,8 @@ const UseCases = () => {
             </SectionContent>
             <SectionHighlight 
                 title="Professional Services & Technical Support"
+                icon="lucide:help-circle"
+
                 content="We'll work with you to design an application that will scale as your business grows"
                 image="/images/highlight-3.jpg"
                 imageAlt="Lorem ipsum dolor sit"
