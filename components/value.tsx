@@ -3,7 +3,7 @@ import FeatureContent from "@components/Feature/FeatureContent"
 const DATA = [
     {
       title: 'Active Listening',
-      content: `Active listening is the foundation of our practice. It lays the ground work, based on what we learn we can create, build, and succeeed in our partnerships`,
+      content: `Active listening is a critical component of our practice. It lays the ground work, based on what we learn we can create, build, and succeeed in our partnerships`,
       icon: 'lucide:ear',
       link: '/howwework',
       linkTitle: 'How We Work'
