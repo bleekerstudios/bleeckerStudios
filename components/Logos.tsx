@@ -26,8 +26,8 @@ const DATA = [
         logo: "/images/logos/logo6.svg",
     },
     {
-        title: "disney",
-        logo: "/images/logos/logo7.svg",
+        title: "mongo",
+        logo: "/images/logos/mongo.svg",
     },
     {
         title: "microsoft",

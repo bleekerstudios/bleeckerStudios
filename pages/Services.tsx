@@ -22,7 +22,7 @@ const UseCases = () => {
             >
                 <p>At Bleeker Studios, we pride ourselves on creating custom solutions that tackle real-world challenges faced by our partners. Below are some services that showcase how we can improve operational efficiency, reduce costs, and enhance user experiences:</p>
 
-                <p>Check out our service overview below, or broswe our detailed list of use cases</p>
+                <p>Check out our service overview below, or browse our detailed list of use cases</p>
 
                 <div className="button-container  md:flex flex-wrap gap-4 ml-auto">
 
@@ -54,7 +54,7 @@ const UseCases = () => {
                 alignment = "center"
                 hasBlockPadding = {true}
             >
-                <p>Bleecker Studios aims to simplify technology implementations. Our ethos is straightforward: Learn, build, and deploy. We streamline the journey from concept to realization, making collaboration effortless. Excited for the opportunity to partner with you.</p>
+                <p>Expand your market presence with our innovative marketing and exposure strategies. Our team is ready to boost your impact through tailored advertising, impactful design, strategic social media, and comprehensive marketing services. We specialize in refining your brand voice and developing a focused content strategy, all while streamlining processes through smart automation.</p>
 
                 <div className="button-container  md:flex flex-wrap gap-4 ml-auto justify-center">
 
@@ -69,10 +69,11 @@ const UseCases = () => {
             <SectionHighlight 
                 title="Software Development"
                 icon="lucide:code-2"
-                content="Deliever best in class content that appeals to the masses"
+                content="Contruct a new iOS, Android, or web based tool to boost operational efficency and save time. Have an idea for an app? We can build that too."
                 image="/images/highlight-2.jpg"
                 imageAlt="Lorem ipsum dolor sit"
             />
+
              <SectionContent 
                 title = "Business Development"
                 icon="lucide:bar-chart-big"
@@ -80,7 +81,7 @@ const UseCases = () => {
                 alignment = "center"
                 hasBlockPadding = {true}
             >
-                <p>Bleecker Studios aims to simplify technology implementations. Our ethos is straightforward: Learn, build, and deploy. We streamline the journey from concept to realization, making collaboration effortless. Excited for the opportunity to partner with you.</p>
+                <p>We&apos;re here to guide your growth. Our expertise has driven success across various domains, including procurement, conducting comprehensive tech stack audits, interactive workshops, detailed product roadmapping sessions, and designing robust software architecture. Understanding that each business has unique needs, we&apos;re eager to delve into yours and identify how our tailored solutions can propel your expansion.</p>
                 
                 <div className="button-container  md:flex flex-wrap gap-4 ml-auto justify-center">
 
@@ -94,7 +95,7 @@ const UseCases = () => {
                 title="Professional Services & Technical Support"
                 icon="lucide:help-circle"
 
-                content="We'll work with you to design an application that will scale as your business grows"
+                content="We aim to be your ultimate support partner in technology. Whether you need custom APIs to seamlessly integrate various applications across your technology ecosystem, or require responsive ad-hoc hardware and software support, we're here for you. Our team excels in breaking down complex technical concepts into easily understandable solutions, ensuring you not only get the support you need but also understand it fully."
                 image="/images/highlight-3.jpg"
                 imageAlt="Lorem ipsum dolor sit"
                 isReversed={true}

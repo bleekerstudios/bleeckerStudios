@@ -16,7 +16,6 @@ const Home = () => {
         />
         <Hero />
         <Highlight />
-        <Feature />
         <CTA />
         <Logos />
     </div>
