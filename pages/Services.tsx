@@ -5,6 +5,7 @@ import SectionHighlight from '@components/Section/SectionHighlight'
 import Logos from "@components/Logos"
 import CTA from "@components/CallToAction"
 
+
 const UseCases = () => {
     const pageTitle = `Use Cases | ${process.env.siteTitle} | Pathway`
     return (
@@ -101,6 +102,9 @@ const UseCases = () => {
                 isReversed={true}
             />
             <CTA />
+
+
+            
             <Logos
             />
         </div>
