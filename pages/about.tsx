@@ -37,7 +37,7 @@ const About = () => {
                 alignment = "center"
                 hasBlockPadding = {true}
             >
-                <p>At Bleecker Studios, our core values are firmly rooted in GRIT and a Growth Mindset. These foundational principles not only guide our actions and drive our performance but also ensure we remain accountable and true to our mission. They are the pillars upon which our company&apos;s ethos is built, shaping every aspect of how we operate and what we aspire to achieve</p>
+                <p>At Bleecker Studios, our core values are firmly rooted in having grit and a growth mindset. These foundational principles not only guide our actions and drive our performance, but also ensure we remain accountable and true to our mission. Below are the pillars in which our company&apos;s ethos is built, shaping every aspect of how we operate and what we aspire to achieve.</p>
                 <Value/>
             </SectionContent>
             
