@@ -3,9 +3,9 @@ import SectionContent from '@components/Section/SectionContent'
 import SectionImage from '@components/Section/SectionImage'
 import SectionHighlight from '@components/Section/SectionHighlight'
 import Logos from "@components/Logos"
-import CTA from "@components/CallToAction"
 import Feature from '@components/Feature'
 import Highlight from '@components/Highlight'
+import CallToAction from '@components/CallToAction'
 
 const Company = () => {
     const pageTitle = `Company | ${process.env.siteTitle} | Pathway`
@@ -22,7 +22,7 @@ const Company = () => {
                 icon="lucide:truck"
 
             >
-                <p>Our approach is built on a framework that prioritizes active engagement with our partners, component based architecture, and intentonal design.</p>
+                <p>At Bleecker Studios, we&apos;re committed to a partnership-based approach. From inception to deployment, collaboration is key. We&apos;re here to ask the right questions and deeply understand your needs. Our agility & component based architecture allows us to adapt to changing priorities and visions, ensuring we stay closely aligned with your objectives throughout the project lifecycle. We&apos;re prepared to iterate as needed.</p>
             </SectionContent>
            
                     <section className="logos-container wrap wrap-px">
@@ -43,15 +43,7 @@ const Company = () => {
                     <Highlight />
 
 
-            <SectionContent 
-                title = "Technology is a tool. When built correclty, it can help people accomplish amazing things"
-                alignment = "center"
-                hasBlockPadding = {true}
-                subheading = '“Technology not does inheriently make our lives easier. It is the adoption of technology by humans that makes our lives easier.”'
-            >
-                <p></p>
-                <p></p>
-            </SectionContent>
+            <CallToAction/>
           
             
             <SectionImage 
