@@ -40,7 +40,7 @@ const UseCases = () => {
                 icon= 'lucide:settings'
                 title="Deploy Tools & Streamline Your Workflows"
                 content="Reduce employee overhead, manual processes, and workplace redundancies with low-cost automated solutions. Or, deploy solutions to help your employees work faster, smarter, and happier."
-                image="/images/Hero5.jpg"
+                image="/images/redstarmain.svg"
                 imageAlt="Lorem ipsum dolor sit"
                 isReversed={true}
             />
@@ -71,7 +71,7 @@ const UseCases = () => {
                 title="Software Development"
                 icon="lucide:code-2"
                 content="Contruct a new iOS, Android, or web based tool to boost operational efficency and save time. Have an idea for an app? We can build that too."
-                image="/images/highlight-2.jpg"
+                image="/images/yellowtunnel.svg"
                 imageAlt="Lorem ipsum dolor sit"
             />
 
@@ -97,7 +97,7 @@ const UseCases = () => {
                 icon="lucide:help-circle"
 
                 content="We aim to be your ultimate support partner in technology. Whether you need custom APIs to seamlessly integrate various applications across your technology ecosystem, or require responsive ad-hoc hardware and software support, we're here for you. Our team excels in breaking down complex technical concepts into easily understandable solutions, ensuring you not only get the support you need but also understand it fully."
-                image="/images/highlight-3.jpg"
+                image="/images/purplewave2.svg"
                 imageAlt="Lorem ipsum dolor sit"
                 isReversed={true}
             />

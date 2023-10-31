@@ -41,7 +41,7 @@ const Contact = () => {
 
             <SectionImage 
                 className="my-24"
-                src="/images/Hero5.jpg"
+                src="/images/orangev.svg"
                 alt="Pricing Page Hero"
             />
             <Logos />

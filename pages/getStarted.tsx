@@ -47,7 +47,7 @@ const Company = () => {
             <GettingStartedForm/>
             <SectionImage 
                 className="my-24"
-                src="/images/Hero4.jpg"
+                src="/images/brownweb.svg"
                 alt="Company Page Hero"
             />
             

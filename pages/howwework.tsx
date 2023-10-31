@@ -37,7 +37,7 @@ const Company = () => {
         </section>
         <SectionImage 
                 className="my-24"
-                src="/images/Hero3.jpg"
+                src="/images/pinknet.svg"
                 alt="Company Page Hero"
             />
                     <Highlight />
@@ -48,7 +48,7 @@ const Company = () => {
             
             <SectionImage 
                 className="my-24"
-                src="/images/Hero5.jpg"
+                src="/images/burgwave.svg"
                 alt="Company Page Hero"
             />
            

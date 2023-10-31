@@ -27,7 +27,7 @@ const About = () => {
 
 <SectionImage 
                 className="my-24"
-                src="/images/bluewave1.svg"
+                src="/images/yellowwidenet.svg"
                 alt="About Page Hero"
             />
            
@@ -99,7 +99,7 @@ const About = () => {
             
             <SectionImage 
                 className="my-24"
-                src="/images/Hero6.jpg"
+                src="/images/mauve.svg"
                 alt="About Page Hero"
             />
         </div>
