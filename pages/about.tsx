@@ -13,12 +13,7 @@ const About = () => {
                 description="Welcome to our website! We offer a wide range of products and services designed to help you achieve your goals. Whether you're looking for information, support, or simply want to learn more, we're here to help. Explore our site to find out more."
             />
 
-<SectionImage 
-                className="my-24"
-                src="/images/Hero2.jpg"
-                alt="About Page Hero"
-            />
-            <SectionContent 
+<SectionContent 
                 title = "About"
                 alignment = "left"
                 hasBlockPadding = {true}
@@ -27,6 +22,15 @@ const About = () => {
             >
                 <p>Bleecker Studios aims to simplify technology implementations. Our ethos is straightforward: Learn, build, and deploy. We streamline the journey from concept to realization, making collaboration effortless. Excited for the opportunity to partner with you.</p>
             </SectionContent>
+
+
+
+<SectionImage 
+                className="my-24"
+                src="/images/Hero2.jpg"
+                alt="About Page Hero"
+            />
+           
 
             <Logos/>
 
