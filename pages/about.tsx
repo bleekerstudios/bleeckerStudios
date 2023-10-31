@@ -27,7 +27,7 @@ const About = () => {
 
 <SectionImage 
                 className="my-24"
-                src="/images/Hero2.jpg"
+                src="/images/bluewave1.svg"
                 alt="About Page Hero"
             />
            

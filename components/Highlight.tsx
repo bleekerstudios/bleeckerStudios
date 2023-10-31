@@ -8,7 +8,7 @@ const DATA = [
       title: 'Phase 1 | Solution Design',
       content: `Working sessions, deep discovery, and understanding your organizations' challenges.
       In this phase we'll work to identify opportunities for improvement and design a solution that fits your needs`,
-      image: '/images/highlight-1.jpg',
+      image: '/images/finaldarkdonut.svg',
       imageAltTag: 'highlight-1',
       icon: 'ph:lightbulb',
       link: '/Services',
@@ -18,7 +18,7 @@ const DATA = [
     {
       title: 'Phase 2 | Develop + Integrate',
       content: `Build. Iterate. Integrate. In Phase 2, we focus on materializing your solution. We'll actively seek feedback and ensure close collaboration throughout this implementation stage.`,
-      image: '/images/highlight-2.jpg',
+      image: '/images/greenprogress.svg',
       imageAltTag: 'highlight-2',
       icon: 'lucide:wrench',
       link: '/contact',
@@ -28,7 +28,7 @@ const DATA = [
     {
       title: 'Phase 3 | Deploy & Educate',
       content: `Phase 3: Launch! Once the solution is rolled out, we'll design a custom offboarding strategy. This will encompass a support portal, enablement resources, and additional guidance to efficiently ramp your team and guarantee a smooth transition and adoption`,
-      image: '/images/highlight-3.jpg',
+      image: '/images/pssvg.svg',
       imageAltTag: 'highlight-3',
       icon: 'lucide:plane-takeoff',
       link: '/getStarted',

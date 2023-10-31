@@ -26,7 +26,7 @@ const SectionHighlight = ({ title, content, isReversed, icon, image, imageAlt, l
                                         src={image}
                                         alt={imageAlt}
                                         className={isReversed ? 'ml-auto' : ''}
-                                        width={515}
+                                        width={302}
                                         height={515}
                                     />
                                 </figure>

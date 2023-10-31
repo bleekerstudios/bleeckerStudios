@@ -69,7 +69,7 @@ const Hero = () => {
 
             </div>
             <SectionImage 
-                src="/images/Hero.jpg"
+                src="/images/bluetitle.svg"
                 alt="Hero Image used for Hero Banner"
             />
         </section>
