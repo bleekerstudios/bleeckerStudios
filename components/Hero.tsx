@@ -8,9 +8,7 @@ import BadgeMessage from "@components/Badge/BadgeMessage"
 import BadgeIcon from "@components/Badge/BadgeIcon"
 
 
-function handleButtonClick() {
-    window.location.href = 'https://bleekerstudios.retool.com/embedded/public/859a2557-e00f-480c-a2e4-2d5429e75f77';
-  }
+
  
   
 
@@ -37,7 +35,7 @@ const Hero = () => {
                     isBigHeader = {true}
                 >
                     <h3>Everyone has ideas, we bring them to life.  </h3>
-                    <p>We build & deploy technology solutions that will save you time, money, and energy</p>
+                    <p>We design, develop, and deploy technology solutions with a singular focus: making technology work for you. Our solutions solve your problems, improve operational efficiency, and optimize resource utilization</p>
                 </SectionContent>
                 <ButtonGroup className = "wrap-sm wrap-px" alignment={alignment}>
                     <Button 
