@@ -20,7 +20,7 @@ const About = () => {
                 icon="lucide:book-open"
 
             >
-                <p>Bleecker Studios aims to simplify technology implementations. Our ethos is straightforward: Learn, build, and deploy. We streamline the journey from concept to realization, making collaboration effortless. Excited for the opportunity to partner with you.</p>
+                <p>We simplify technology implementations. Our ethos is straightforward: Learn, build, and deploy. We streamline the journey from concept to realization, making collaboration effortless. Excited for the opportunity to partner with you.</p>
             </SectionContent>
 
 

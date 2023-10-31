@@ -21,7 +21,7 @@ const UseCases = () => {
                 icon="lucide:package"
 
             >
-                <p>At Bleeker Studios, we&apos;re dedicated to crafting bespoke solutions that meet the real-world challenges our partners face. Our range of services demonstrates our commitment to boosting operational efficiency, cutting costs, and enriching user experiences.</p>
+                <p>We craft bespoke solutions that meet the real-world challenges our partners face. Our range of services demonstrates our commitment to boosting operational efficiency, cutting costs, and enriching user experiences.</p>
 
                 <p>Check out our service overview below, or browse our detailed list of use cases</p>
 

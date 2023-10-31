@@ -22,7 +22,7 @@ const Company = () => {
                 icon="lucide:truck"
 
             >
-                <p>At Bleecker Studios, we&apos;re committed to a partnership-based approach. From inception to deployment, collaboration is key. We&apos;re here to ask the right questions and deeply understand your needs. Our agility & component based architecture allows us to adapt to changing priorities and visions, ensuring we stay closely aligned with your objectives throughout the project lifecycle. We&apos;re prepared to iterate as needed.</p>
+                <p>We&apos;re committed to a partnership-based approach. From inception to deployment, collaboration is key. We&apos;re here to ask the right questions and deeply understand your needs. Our agility & component based architecture allows us to adapt to changing priorities and visions, ensuring we stay closely aligned with your objectives throughout the project lifecycle. We&apos;re prepared to iterate as needed.</p>
             </SectionContent>
            
                     <section className="logos-container wrap wrap-px">
