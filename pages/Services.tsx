@@ -27,7 +27,7 @@ const UseCases = () => {
 
                 <div className="button-container  md:flex flex-wrap gap-4 ml-auto">
 
-                <a href="https://bleeker-docs.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                <a href="https://bleecker-studios-docs.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
                 <button className="bg-primary-500 flex font-medium w-full md:w-auto justify-center gap-3 items-center px-8  text-white py-2 rounded-full hover:bg-primary-300  duration-30">Use Cases</button>
                 </a>
                 </div>
@@ -59,7 +59,7 @@ const UseCases = () => {
 
                 <div className="button-container  md:flex flex-wrap gap-4 ml-auto justify-center">
 
-                <a href="https://bleeker-docs.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                <a href="https://bleecker-studios-docs.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
                 <button className="bg-primary-500 flex font-medium w-full md:w-auto justify-center gap-3 items-center px-8  text-white py-2 rounded-full hover:bg-primary-300  duration-30">Details</button>
                 </a>
                 </div>
@@ -86,7 +86,7 @@ const UseCases = () => {
                 
                 <div className="button-container  md:flex flex-wrap gap-4 ml-auto justify-center">
 
-                <a href="https://bleeker-docs.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                <a href="https://bleecker-studios-docs.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
                 <button className="bg-primary-500 flex font-medium w-full md:w-auto justify-center gap-3 items-center px-8  text-white py-2 rounded-full hover:bg-primary-300  duration-30">Overview</button>
                 </a>
                 </div>
