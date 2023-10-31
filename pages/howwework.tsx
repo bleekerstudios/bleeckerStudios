@@ -8,7 +8,7 @@ import Highlight from '@components/Highlight'
 import CallToAction from '@components/CallToAction'
 
 const Company = () => {
-    const pageTitle = `Company | ${process.env.siteTitle} | Pathway`
+    const pageTitle = `How We Work | ${process.env.siteTitle}`
     return (
         <div className="main-content-container wrap">
             <SEO 

@@ -7,7 +7,7 @@ import CTA from "@components/CallToAction"
 
 
 const UseCases = () => {
-    const pageTitle = `Use Cases | ${process.env.siteTitle} | Pathway`
+    const pageTitle = `Services | ${process.env.siteTitle} `
     return (
         <div className="main-content-container wrap">
             <SEO 

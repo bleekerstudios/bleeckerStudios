@@ -25,7 +25,7 @@ const DATA = [
     
     {
         label: 'Use Cases',
-        href: 'https://bleecker-studios-docs.vercel.app/'
+        href: 'https://www.bleeckerstudios-docs.com'
     },
     {
         label: 'Instagram',

@@ -8,7 +8,7 @@ import LogoContainer from '@components/Logos/LogoContainer'
 import LogoItems from '@components/Logos/LogoItems'
 
 const Contact = () => {
-    const pageTitle = `Pricing | ${process.env.siteTitle} | Pathway`
+    const pageTitle = `Contact | ${process.env.siteTitle} `
     return (
         <div className="main-content-container wrap">
             <SEO 

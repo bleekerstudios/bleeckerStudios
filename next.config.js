@@ -9,10 +9,10 @@ const nextConfig = {
   env: {
     siteTitle: 'Bleecker Studios',
     siteDescription: 'Your company description.',
-    siteKeywords: 'your company keywords',
-    siteUrl: 'You site url',
+    siteKeywords: '',
+    siteUrl: 'https://www.bleecker-studios.com/',
     siteImagePreviewUrl: '/images/blackestmask.png',
-    twitterHandle: '@your_handle'
+    twitterHandle: '@bleeckerstudios'
   } 
 }
 

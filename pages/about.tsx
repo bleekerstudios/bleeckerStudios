@@ -5,7 +5,7 @@ import Logos from "@components/Logos"
 import Value from '@components/value'
 
 const About = () => {
-    const pageTitle = `About | ${process.env.siteTitle} | Pathway`
+    const pageTitle = `About | ${process.env.siteTitle}`
     return (
         <div className="main-content-container wrap">
             <SEO 

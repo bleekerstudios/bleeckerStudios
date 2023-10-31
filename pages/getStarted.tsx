@@ -11,7 +11,7 @@ import Button, { ButtonVariant } from "@components/Button/Button"
 
 
 const Company = () => {
-    const pageTitle = `Company | ${process.env.siteTitle} | Pathway`
+    const pageTitle = `Get Started | ${process.env.siteTitle} `
     return (
         <div className="main-content-container wrap">
             <SEO 

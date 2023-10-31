@@ -58,7 +58,7 @@ env: {
   siteTitle: 'Bleecker Studios',
   siteDescription: 'Your company description.',
   siteKeywords: 'your company keywords',
-  siteUrl: 'https://pathway-cl.vercel.app/',
+  siteUrl: 'https://www.bleecker-studios.com/',
   siteImagePreviewUrl: '/images/blackestmask.png',
   twitterHandle: '@bleeckerstudios'
 } 
