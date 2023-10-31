@@ -8,7 +8,7 @@ const DATA = [
       title: 'Phase 1 | Solution Design',
       content: `Working sessions, deep discovery, and understanding your organizations' challenges.
       In this phase we'll work to identify opportunities for improvement and design a solution that fits your needs`,
-      image: '/images/finaldarkdonut.svg',
+      image: '/images/thicktube.svg',
       imageAltTag: 'highlight-1',
       icon: 'ph:lightbulb',
       link: '/Services',

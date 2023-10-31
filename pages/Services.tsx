@@ -40,7 +40,7 @@ const UseCases = () => {
                 icon= 'lucide:settings'
                 title="Deploy Tools & Streamline Your Workflows"
                 content="Reduce employee overhead, manual processes, and workplace redundancies with low-cost automated solutions. Or, deploy solutions to help your employees work faster, smarter, and happier."
-                image="/images/redstarmain.svg"
+                image="/images/redprogress.svg"
                 imageAlt="Lorem ipsum dolor sit"
                 isReversed={true}
             />
@@ -71,7 +71,7 @@ const UseCases = () => {
                 title="Software Development"
                 icon="lucide:code-2"
                 content="Contruct a new iOS, Android, or web based tool to boost operational efficency and save time. Have an idea for an app? We can build that too."
-                image="/images/yellowtunnel.svg"
+                image="/images/finaldarkdonut.svg"
                 imageAlt="Lorem ipsum dolor sit"
             />
 
