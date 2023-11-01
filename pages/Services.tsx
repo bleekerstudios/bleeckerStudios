@@ -4,6 +4,8 @@ import SectionImage from '@components/Section/SectionImage'
 import SectionHighlight from '@components/Section/SectionHighlight'
 import Logos from "@components/Logos"
 import CTA from "@components/CallToAction"
+import Button from '@components/Button/Button'
+import { ButtonVariant } from '@components/Button/Button'
 
 
 const UseCases = () => {
@@ -23,13 +25,13 @@ const UseCases = () => {
             >
                 <p>We craft bespoke solutions that meet the real-world challenges our partners face. Our range of services demonstrates our commitment to boosting operational efficiency, cutting costs, and enriching user experiences.</p>
 
-                <p>Check out our service overview below, or browse our detailed list of use cases</p>
+                <p>Check out our service overview below, or reach out.</p>
+
 
                 <div className="button-container  md:flex flex-wrap gap-4 ml-auto">
+                <Button variant={ButtonVariant.secondary} text="Get In Touch" link="/getStarted" />
 
-                <a href="https://bleecker-studios-docs.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
-                <button className="bg-primary-500 flex font-medium w-full md:w-auto justify-center gap-3 items-center px-8  text-white py-2 rounded-full hover:bg-primary-300  duration-30">Use Cases</button>
-                </a>
+
                 </div>
 
 
@@ -59,9 +61,14 @@ const UseCases = () => {
 
                 <div className="button-container  md:flex flex-wrap gap-4 ml-auto justify-center">
 
-                <a href="https://bleecker-studios-docs.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                <Button variant={ButtonVariant.primary} text="Get Started" link="/getStarted" />
+
+
+                
+
+               {/*  <a href="https://bleecker-studios-docs.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
                 <button className="bg-primary-500 flex font-medium w-full md:w-auto justify-center gap-3 items-center px-8  text-white py-2 rounded-full hover:bg-primary-300  duration-30">Details</button>
-                </a>
+    </a>  */}
                 </div>
             </SectionContent>
 
@@ -86,9 +93,12 @@ const UseCases = () => {
                 
                 <div className="button-container  md:flex flex-wrap gap-4 ml-auto justify-center">
 
-                <a href="https://bleecker-studios-docs.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                <Button variant={ButtonVariant.primary} text="Schedule a Meeting" link="/getStarted" />
+
+
+                {/* <a href="https://bleecker-studios-docs.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
                 <button className="bg-primary-500 flex font-medium w-full md:w-auto justify-center gap-3 items-center px-8  text-white py-2 rounded-full hover:bg-primary-300  duration-30">Overview</button>
-                </a>
+</a> */}
                 </div>
 
             </SectionContent>

@@ -5,7 +5,7 @@ import Logos from "@components/Logos"
 import GettingStartedForm from '@components/GettingStartedForm'
 import ButtonGroup from '@components/ButtonGroup'
 import Button, { ButtonVariant } from "@components/Button/Button"
-
+import LogoContainer from '@components/Logos/LogoContainer'
 
 
 
@@ -26,13 +26,17 @@ const Company = () => {
                 
             
             >
-                <p>We have a few different ways to begin. You can give us a call, email us, or send us your info below and we&apos;ll reach out.</p>
+                <p>We have a few different ways to begin. You can send us your info below, shoot us an email, or give us a call. Looking forward to connecting</p>
                 
         
-     <div className="button-container  md:flex flex-wrap gap-4 ml-auto justify-center">
+     <div className="button-container  md:flex flex-wrap ml-auto justify-center">
 
                 <ButtonGroup className = "wrap wrap-px" >
-                    <Button variant={ButtonVariant.secondary} text="Contact" link="/contact" />
+                    <Button variant={ButtonVariant.primary} text="Services" link="/Services" />
+                </ButtonGroup>
+
+                <ButtonGroup className = "wrap wrap-px" >
+                    <Button variant={ButtonVariant.primary} text="How We Work" link="/Services" />
                 </ButtonGroup>
 
                 </div>
@@ -45,6 +49,27 @@ const Company = () => {
             
 
             <GettingStartedForm/>
+            
+            <section className="logos-container wrap wrap-px ">
+            <div className="logos-content-container p-5 md:p-10 rounded-2xl my-10 bg-badge gap-y-8 flex ">
+                <div className="content-container text-black">
+                    <h6>Email</h6>
+                    <h6>info@bleecker-studios.com</h6>
+                    <br></br>
+                    <h6>Phone</h6>
+                    <h5>(917)-232-7121</h5>
+
+                </div>
+                <LogoContainer>
+                    
+                </LogoContainer>
+            </div>
+        </section>
+            
+            
+            
+            
+            
             <SectionImage 
                 className="my-24"
                 src="/images/brownweb.svg"

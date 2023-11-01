@@ -6,7 +6,6 @@ import { useRouter } from "next/router";
 const navigation = [
   { name: "How We Work", href: "/howwework" },
   { name: "Services", href: "Services" },
-  { name: "Use Cases", href: "https://www.bleeckerstudios-docs.com" },
 
   { name: "About", href: "/about" },
 

@@ -31,7 +31,7 @@ const Header = () => {
                     />
                     <Button 
                         text="Contact"
-                        link="/contact"
+                        link="/getStarted"
                         variant={ButtonVariant.secondary}
                     /> 
                 </div>

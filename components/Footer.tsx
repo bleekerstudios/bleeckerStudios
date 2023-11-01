@@ -5,28 +5,22 @@ const DATA = [
         label: 'Home', 
         href: '/' 
     },
+    {
+        label: 'About',
+        href: '/about'
+    },
+    
     { 
         label: 'Services', 
         href: '/Services' 
     },
-    { 
-        label: 'About', 
-        href: '/about' 
-    },
-    { 
-        label: 'Contact', 
-        href: '/contact' 
-    },
+    
+    
     { 
         label: 'Get Started', 
         href: '/getStarted' 
     },
    
-    
-    {
-        label: 'Use Cases',
-        href: 'https://www.bleeckerstudios-docs.com'
-    },
     {
         label: 'Instagram',
         href: 'https://www.instagram.com/'
@@ -73,6 +67,9 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="footer-credits text-black/60">
+
+                        <p>917.232.7121 | info@bleecker-studios.com<span className="font-semibold"> <Link className="hover:text-primary-500 transition-colors duration-300" href="" target="_blank"></Link></span></p>
+
                         <p>© {year} - Bleecker Studios. All rights reserved. <span className="font-semibold"> <Link className="hover:text-primary-500 transition-colors duration-300" href="https://cjluntok.com" target="_blank"></Link></span></p>
                     </div>
                 </div>

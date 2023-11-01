@@ -46,7 +46,7 @@ const Hero = () => {
                     />
                     <Button 
                         text="Contact Us" 
-                        link="/contact"
+                        link="/getStarted"
                         variant={ButtonVariant.secondary}
                     />
 
