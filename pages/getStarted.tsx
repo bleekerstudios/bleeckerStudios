@@ -29,14 +29,13 @@ const Company = () => {
                 <p>We have a few different ways to begin. You can send us your info below, shoot us an email, or give us a call. Looking forward to connecting</p>
                 
         
-     <div className="button-container  md:flex flex-wrap ml-auto justify-center">
+     <div className="button-container  md:flex flex-wrap gap-4 ml-auto justify-center">
 
                 <ButtonGroup className = "wrap wrap-px" >
                     <Button variant={ButtonVariant.primary} text="Services" link="/Services" />
-                </ButtonGroup>
+                
 
-                <ButtonGroup className = "wrap wrap-px" >
-                    <Button variant={ButtonVariant.primary} text="How We Work" link="/Services" />
+                    <Button variant={ButtonVariant.primary} text="How We Work" link="/howwework" />
                 </ButtonGroup>
 
                 </div>
