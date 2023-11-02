@@ -9,7 +9,7 @@ const DATA = [
     
     {
       title: 'Solution Design',
-      content: ` Once we've defined your end state we'll begin architecting a solution that's uniquely suited to your needs.`,
+      content: `Once we've defined your end state we'll begin architecting a solution that's uniquely suited to your needs.`,
       icon: 'ph:lightning',
       
     },
