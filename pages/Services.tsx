@@ -11,7 +11,7 @@ import MyComponent from '../components/insights'
 const UseCases = () => {
     const pageTitle = `Services | ${process.env.siteTitle} `
     return (
-        <div className="main-content-container wrap">
+        <div className="main-content-container wrap pt-10 ">
             <SEO 
                 title={pageTitle}
                 description="Welcome to our website! We offer a wide range of products and services designed to help you achieve your goals. Whether you're looking for information, support, or simply want to learn more, we're here to help. Explore our site to find out more."
