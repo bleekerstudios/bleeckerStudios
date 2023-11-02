@@ -61,7 +61,7 @@ function GettingStartedForm() {
       .then((response) => {
         handleServerResponse(
           true,
-          'Thank you, your message has been submitted.',
+          'Thanks! We will be in touch shortly.',
         );
       })
       .catch((error) => {
@@ -71,7 +71,7 @@ function GettingStartedForm() {
   return (
     <main>
       
-      <div className="button-container  md:flex flex-wrap gap-4 ml-auto justify-center">
+      <div className="button-container  md:flex flex-wrap justify-center w-90 mx-10 ">
 
       <form onSubmit={handleOnSubmit}>
 
@@ -90,7 +90,7 @@ function GettingStartedForm() {
        <label className=" text-muted font-normal text-sm leading-5 select-none">Phone</label>
 
     <textarea
-  className="w-full bg-transparent border-borderLight text-black  px-4 py-2 rounded focus:bg-light border     focus:border-white focus:border-opacity-30"
+  className="w-full  bg-transparent border-borderLight text-black  px-4 py-2 rounded focus:bg-light border     focus:border-white focus:border-opacity-30"
   id="phone"
   name="phone"
   onChange={handleOnChange}
@@ -101,7 +101,7 @@ function GettingStartedForm() {
 <label className=" text-muted font-normal text-sm leading-5 select-none">Comnpany</label>
 
         <textarea
-          className="w-full bg-transparent border-borderLight text-black  px-2 py-1 rounded focus:bg-light border     focus:border-white focus:border-opacity-30"
+          className="w-full  bg-transparent border-borderLight text-black  px-2 py-1 rounded focus:bg-light border     focus:border-white focus:border-opacity-30"
           id="company"
           name="company"
           onChange={handleOnChange}

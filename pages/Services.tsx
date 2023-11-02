@@ -23,9 +23,9 @@ const UseCases = () => {
                 icon="lucide:package"
 
             >
-                <p>We craft bespoke solutions that meet the real-world challenges our partners face. Our range of services demonstrates our commitment to boosting operational efficiency, cutting costs, and enriching user experiences.</p>
+                <p>Below, you&apos;ll find a breakdown of our services, We&apos;ll leverage these during Phase 2 & 3 of our workflow.</p>
 
-                <p>Check out our service overview below, or reach out.</p>
+                <p>Alright have an idea of what you need? Let&apos;s chat. </p>
 
 
                 <div className="button-container  md:flex flex-wrap gap-4 ml-auto">

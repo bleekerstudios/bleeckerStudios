@@ -7,6 +7,7 @@ import BadgeContext from "@components/Badge/BadgeContext"
 import BadgeMessage from "@components/Badge/BadgeMessage"
 import BadgeIcon from "@components/Badge/BadgeIcon"
 import Stats from "./stats"
+import MyComponent from "./insights"
 
  
   
@@ -72,23 +73,32 @@ const Hero = () => {
 
             </div>
             
+                <div className="flex flex-col md:flex-row px-6">
 
-
-                <br></br>
                 <SectionContent
-                title = "Our Impact"
-                alignment = {alignment}
+                title = "Tangible Results Weeks After Deployment"
+                subheading = "Our Impact"
+
+                alignment = "left"
                 isBigHeader = {true}>
-                    <p></p>
-                <Stats/>
+                    <p>We measure success based on quantifiable business impact</p>
+                
+                
+                
                     
                     </SectionContent>
               
+                    <section className="logos-container wrap wrap-px">
+            <div className="logos-content-container p-2 md:p-5 rounded-2xl  bg-badge gap-y-2 px-6 py-16">
+                <div className="content-container text-black text-center ">
+                <MyComponent/>
 
 
-
+                    </div>
+                    </div>
+                    </section>
             
-
+                    </div>
         </section>
     )
 }

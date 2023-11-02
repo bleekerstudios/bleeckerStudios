@@ -22,8 +22,14 @@ const Company = () => {
                 icon="lucide:truck"
 
             >
-                <p>We&apos;re committed to a partnership-based approach. From inception to deployment, collaboration is key. We&apos;re here to ask the right questions and deeply understand your needs. Our agility & component based architecture allows us to adapt to changing priorities and visions, ensuring we stay closely aligned with your objectives throughout the project lifecycle. We&apos;re prepared to iterate as needed.</p>
+                <p>Our process is segmented out into four phases, we believe each phase plays a critical role in developing a solution designed for your needs.</p>
+               
             </SectionContent>
+            <SectionImage 
+                className="my-16"
+                src="/images/pinknet.svg"
+                alt="Company Page Hero"
+            />
            
                     <section className="logos-container wrap wrap-px">
             <div className="logos-content-container p-2 md:p-5 rounded-2xl my-24 bg-badge gap-y-2">
@@ -35,11 +41,7 @@ const Company = () => {
                
             </div>
         </section>
-        <SectionImage 
-                className="my-24"
-                src="/images/pinknet.svg"
-                alt="Company Page Hero"
-            />
+        
                     <Highlight />
 
 

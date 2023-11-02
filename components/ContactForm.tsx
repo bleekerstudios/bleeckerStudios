@@ -53,7 +53,7 @@ function ContactForm() {
       .then((response) => {
         handleServerResponse(
           true,
-          'Thank you, your message has been submitted.',
+          'Thanks, we will be in touch shortly.',
         );
       })
       .catch((error) => {
@@ -91,7 +91,6 @@ function ContactForm() {
           value={inputs.message}
         />
         
-
         <button type="submit" disabled={status.submitting} className="flex font-medium w-full md:w-auto justify-center gap-3 items-center px-8  text-white py-2 rounded-full hover:bg-primary-300  duration-30 ">
           {!status.submitting
             ? !status.submitted
@@ -99,6 +98,7 @@ function ContactForm() {
               : 'Submitted'
             : 'Submitting...'}
          </button>
+         
         
       </form>
       {status.info.error && (
