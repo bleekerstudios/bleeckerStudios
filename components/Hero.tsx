@@ -57,8 +57,11 @@ const Hero = () => {
                     
                 </ButtonGroup>
 
-             
-
+             <br></br>
+                <SectionImage 
+                src="/images/bluetitle.svg"
+                alt="Hero Image used for Hero Banner"
+            />
 
 
 
@@ -68,10 +71,7 @@ const Hero = () => {
 
 
             </div>
-            <SectionImage 
-                src="/images/bluetitle.svg"
-                alt="Hero Image used for Hero Banner"
-            />
+            
 
 
                 <br></br>
