@@ -53,10 +53,11 @@ const Company = () => {
             <div className="logos-content-container p-5 md:p-10 rounded-2xl my-10 bg-badge gap-y-8 flex ">
                 <div className="content-container text-black">
                     <h6>Email</h6>
-                    <h6>info@bleecker-studios.com</h6>
+                    <a href="mailto:info@bleecker-studios.com">info@bleecker-studios.com </a>
+                    <br></br>
                     <br></br>
                     <h6>Phone</h6>
-                    <h5>(917)-232-7121</h5>
+                    <a href="tel:+19172327121">917.232.7121</a> 
 
                 </div>
                 <LogoContainer>

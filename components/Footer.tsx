@@ -68,7 +68,7 @@ const Footer = () => {
                     </div>
                     <div className="footer-credits text-black/60">
 
-                        <p>917.232.7121 | info@bleecker-studios.com<span className="font-semibold"> <Link className="hover:text-primary-500 transition-colors duration-300" href="" target="_blank"></Link></span></p>
+                    <a href="tel:+19172327121">917.232.7121</a> | <a href="mailto:info@bleecker-studios.com">info@bleecker-studios.com </a><span className="font-semibold"> <Link className="hover:text-primary-500 transition-colors duration-300" href="" target="_blank"></Link></span>
 
                         <p>© {year} - Bleecker Studios. All rights reserved. <span className="font-semibold"> <Link className="hover:text-primary-500 transition-colors duration-300" href="https://cjluntok.com" target="_blank"></Link></span></p>
                     </div>
