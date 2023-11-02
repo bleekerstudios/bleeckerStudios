@@ -6,8 +6,7 @@ import Button, { ButtonVariant } from "@components/Button/Button"
 import BadgeContext from "@components/Badge/BadgeContext"
 import BadgeMessage from "@components/Badge/BadgeMessage"
 import BadgeIcon from "@components/Badge/BadgeIcon"
-
-
+import Stats from "./stats"
 
  
   
@@ -36,6 +35,8 @@ const Hero = () => {
                 >
                     <h3>Everyone has ideas, we bring them to life.  </h3>
                     <p>We design, develop, and deploy technology solutions with a singular focus: making technology work for you. Our solutions solve your problems, improve operational efficiency, and optimize resource utilization</p>
+
+
                 </SectionContent>
                 <ButtonGroup className = "wrap-sm wrap-px" alignment={alignment}>
                     <Button 
@@ -53,7 +54,6 @@ const Hero = () => {
 
 
 
-                   
                     
                 </ButtonGroup>
 
@@ -72,6 +72,23 @@ const Hero = () => {
                 src="/images/bluetitle.svg"
                 alt="Hero Image used for Hero Banner"
             />
+
+
+                <br></br>
+                <SectionContent
+                title = "Our Impact"
+                alignment = {alignment}
+                isBigHeader = {true}>
+                    <p></p>
+                <Stats/>
+                    
+                    </SectionContent>
+              
+
+
+
+            
+
         </section>
     )
 }

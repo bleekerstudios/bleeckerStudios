@@ -4,7 +4,7 @@ import Feature from "@components/Feature"
 import CTA from "@components/CallToAction"
 import Logos from "@components/Logos"
 import SEO from '@components/SEO'
-
+import MyComponent from "../components/insights"
 
 const Home = () => {
   const pageTitle = `Bleecker Studios `

@@ -6,7 +6,7 @@ import Logos from "@components/Logos"
 import CTA from "@components/CallToAction"
 import Button from '@components/Button/Button'
 import { ButtonVariant } from '@components/Button/Button'
-
+import MyComponent from '../components/insights'
 
 const UseCases = () => {
     const pageTitle = `Services | ${process.env.siteTitle} `
@@ -62,6 +62,7 @@ const UseCases = () => {
                 <div className="button-container  md:flex flex-wrap gap-4 ml-auto justify-center">
 
                 <Button variant={ButtonVariant.primary} text="Get Started" link="/getStarted" />
+
 
 
                 

@@ -2,7 +2,7 @@ import SectionContent from "@components/Section/SectionContent"
 import ButtonGroup from "@components/ButtonGroup"
 import SectionHighlight from "@components/Section/SectionHighlight"
 import Button, { ButtonVariant } from "@components/Button/Button"
-
+import Stats from "./stats"
 const DATA = [
   {
     title: 'Phase 1 | Evaluate Current State',
@@ -58,6 +58,9 @@ const Highlight = () => {
     return (
         <section className="highlight-container my-16">
             <div className="highlight-content mb-16">
+                
+          
+                
                 <SectionContent 
                     title = "Building What You Need, Exactly How You Need It"
                     subheading = "Our Approach"
@@ -66,6 +69,8 @@ const Highlight = () => {
                 >
                   <p></p>
                   <p>Our workflow is segmented into four phases. See the breakdown below.</p>
+                  
+
                 </SectionContent>
                 <ButtonGroup className = "wrap wrap-px" alignment={alignment} >
                     <Button variant={ButtonVariant.primary} text="Services" link="/Services" icon="ph:arrow-right-bold" />
