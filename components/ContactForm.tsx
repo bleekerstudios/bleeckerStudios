@@ -47,7 +47,7 @@ function ContactForm() {
     setStatus((prevStatus) => ({ ...prevStatus, submitting: true }));
     axios({
       method: 'POST',
-      url: 'https://formspree.io/f/xjvdqnqd',
+      url: 'https://formspree.io/f/meqbdabv',
       data: inputs,
     })
       .then((response) => {
