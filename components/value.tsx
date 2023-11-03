@@ -11,7 +11,7 @@ const DATA = [
     {
       title: 'Understanding Why',
       content: `Delving deep to understand the 'why' behind every challenge is crucial for our success. We prioritize grasping the core reasons and motivations driving the projects and goals of our clients. This depth of understanding allows us to create solutions that are not just effective but also empathetically aligned with our clients' objectives and the needs of their audiences.`,
-      icon: 'lucide:ear',
+      icon: 'lucide:waypoints',
       link: '/Services',
       linkTitle: 'Services'
     },

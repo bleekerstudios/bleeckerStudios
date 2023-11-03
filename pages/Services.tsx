@@ -25,7 +25,7 @@ const UseCases = () => {
                 icon="lucide:package"
 
             >
-                <p>Below, you&apos;ll find a breakdown of our services. We design these tools and strategies during the solution design & integation phase of our workflow. They are ultimately the tools you will leverage to improve operational efficency.</p>
+                <p>We&apos;ve segmented our services into a few catergories. We construct these services during the solution design & integation phase of our workflow. They are ultimately the tools you will leverage to improve operational efficency.</p>
                 
 
 

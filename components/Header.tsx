@@ -29,11 +29,7 @@ const Header = () => {
                         link="getStarted"
                         variant={ButtonVariant.primary}
                     />
-                    <Button 
-                        text="Contact"
-                        link="/getStarted"
-                        variant={ButtonVariant.secondary}
-                    /> 
+                    
                 </div>
             </div>
         </header>

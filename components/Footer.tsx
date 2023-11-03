@@ -20,6 +20,11 @@ const DATA = [
         label: 'Get Started', 
         href: '/getStarted' 
     },
+
+    { 
+        label: 'Documentation', 
+        href: 'https://www.bleeckerstudios-docs.com' 
+    },
    
     {
         label: 'Instagram',

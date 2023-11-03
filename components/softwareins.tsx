@@ -55,9 +55,9 @@ const SoftwareCounter = () => {
 
 
         <span className="text-4xl font-bold text-black-900">
-          <CounterComponent startCount={0} duration={5} /> 
+          <CounterComponent startCount={0} duration={5} /> Components 
         </span>
-        <p>Average software components connected across tech stack </p>
+        <p>Connected on average across our partners tech stack </p>
 
         <span className="text-4xl font-bold text-black-900">
           $<CounterComponent startCount={0} duration={3} />,000
