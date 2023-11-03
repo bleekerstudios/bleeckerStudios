@@ -122,7 +122,7 @@ const UseCases = () => {
                 isReversed={true}
             />
 
-<section className="logos-container wrap wrap-px">
+<section className="logos-container wrap wrap-px ">
 <div className="logos-content-container p-2 md:p-5 rounded-2xl  bg-badge gap-y-2  py-5 ">
 <div className="content-container text-black text-center mt-5">
 <SoftwareCounter/>

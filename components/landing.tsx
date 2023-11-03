@@ -17,7 +17,7 @@ const DATA = [
       content: `We want to hear about your problems and areas you want to improve. From there we'll design and deploy solutions that will save you time, reduce costs, and increase efficency.`,
       image: '/images/teald.svg',
       imageAltTag: 'highlight-2',
-      icon: 'lucide:wrench',
+      icon: 'lucide:boxes',
       link: '/howwework',
       linkTitle: 'How We Work',
       reversed: false
@@ -27,7 +27,7 @@ const DATA = [
 const Landing = () => {
     const alignment = "left"
     return (
-        <section className="highlight-container ">
+        <section className="highlight-container">
             <div className="highlight-content ">
                 
           
@@ -35,6 +35,7 @@ const Landing = () => {
                 <SectionContent 
                     title = "Technical Services, At Your Pace"
                     subheading = "What We Do"
+                    icon = "lucide:layers-2"
                     alignment = {alignment}
                     isBigHeader = {false}
                 >
@@ -66,7 +67,7 @@ const Landing = () => {
                 }
             </div>
 
-            <div className="flex flex-col md:flex-row px-6">
+            <div className="flex flex-col md:flex-row px-6 bg-zinc-900	py-10 text-gray-200	">
 
 <SectionContent
 title = "Impact, Just Weeks After Deployment"
@@ -74,16 +75,16 @@ subheading = "Our Results"
 
 alignment = "left"
 isBigHeader = {true}>
-    <p>We focus on implementing solutions that deliever tangible business outcomes.</p>
+    <p className="text-white">We focus on implementing solutions that deliever tangible business outcomes.</p>
 
 
 
     
     </SectionContent>
 
-    <section className="logos-container wrap wrap-px">
+    <section className="logos-container wrap wrap-px 	">
 <div className="logos-content-container p-2 md:p-5 rounded-2xl  bg-badge gap-y-2 px-6 py-16 ">
-<div className="content-container text-black text-center mt-5">
+<div className="content-container text-black text-center mt-5 ">
 <MyComponent/>
 
 
