@@ -55,8 +55,8 @@ const DATA = [
 const Highlight = () => {
     const alignment = "left"
     return (
-        <section className="highlight-container my-8">
-            <div className="highlight-content mb-16">
+        <section className="highlight-container my-3">
+            <div className="highlight-content mb-10">
                 
           
                 

@@ -16,7 +16,7 @@ const DATA = [
       content: `Lets connect. We can spin something up in the matter of hours.`,
       image: '/images/redtop.svg',
       imageAltTag: 'highlight-3',
-      icon: 'lucide:plane-takeoff',
+      icon: 'lucide:braces',
       link: '/getStarted',
       linkTitle: 'Get Started',
       reversed: false
