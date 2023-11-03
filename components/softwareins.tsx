@@ -33,39 +33,39 @@ const CounterComponent = ({ startCount, duration }) => {
   return <span>{counter}</span>;
 };
 
-const MyComponent = () => {
+const SoftwareCounter = () => {
   return (
     <div>
     
 
-
+      <div>
     
         <span className="text-4xl font-bold text-black-900">
-          <CounterComponent startCount={0} duration={40} />%
+          <CounterComponent startCount={0} duration={129} /> Applications
         </span>
-        <p>Reduction in annual technology costs</p>
+        <p>Deployed across iOS, Web, and Android</p>
       
      
         <span className="text-4xl font-bold text-black-900">
-          <CounterComponent startCount={0} duration={245} /> Hours
+          <CounterComponent startCount={0} duration={1021} /> API
         </span>
-        <p>Saved a week by automating processes.</p>
+        <p>Integrations completed</p>
       
         
 
 
         <span className="text-4xl font-bold text-black-900">
-          <CounterComponent startCount={0} duration={20} />%
+          <CounterComponent startCount={0} duration={5} /> 
         </span>
-        <p>Reduction in touchpoints with end clients</p>
+        <p>Average software components connected across tech stack </p>
 
         <span className="text-4xl font-bold text-black-900">
-          $<CounterComponent startCount={0} duration={500} />,320
+          $<CounterComponent startCount={0} duration={3} />,000
         </span>
-        <p>Average contract size when leveraged during client sales cycle</p>
+        <p>Average technical debt removed</p>
 
 
-        
+        </div>
       
       
 
@@ -74,4 +74,4 @@ const MyComponent = () => {
   );
 };
 
-export default MyComponent;
+export default SoftwareCounter;

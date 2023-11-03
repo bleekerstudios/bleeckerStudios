@@ -22,10 +22,7 @@ const Home = () => {
 
     
 
-        <div className="highlight-image-container mx-12">
-
-        <Feature />
-        </div>
+        
 
         <CTA />
 

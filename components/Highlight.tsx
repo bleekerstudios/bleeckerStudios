@@ -67,7 +67,7 @@ const Highlight = () => {
                     isBigHeader = {false}
                 >
                   <p></p>
-                  <p>Our workflow is segmented into four phases. See the breakdown below.</p>
+                  <p>Each phase of our workflow is intentionally designed. We start by listening to your needs, this lays the foundation. From here we can construct a solution specfically designed with your team in mind. The end goal is to deploy a solution that is adopted and adored across your entire organzition. </p>
                   
 
                 </SectionContent>

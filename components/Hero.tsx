@@ -35,7 +35,7 @@ const Hero = () => {
                     isBigHeader = {true}
                 >
                     <h3>Everyone has ideas, we bring them to life.  </h3>
-                    <p>We design, develop, and deploy technology solutions with a singular focus: making technology work for you. Our solutions solve your problems, improve operational efficiency, and optimize resource utilization</p>
+                    <p>We design, develop, and deploy technology solutions with a singular focus: making technology work for you. Our solutions solve your problems, improve operational efficiency, and optimize resource utilization.</p>
 
 
                 </SectionContent>
@@ -73,32 +73,7 @@ const Hero = () => {
 
             </div>
             
-                <div className="flex flex-col md:flex-row px-6">
-
-                <SectionContent
-                title = "Impact Weeks After Deployment"
-                subheading = "Our Results"
-
-                alignment = "left"
-                isBigHeader = {true}>
-                    <p>We focus on implementing solutions that deliever tangible business outcomes.</p>
-                
-                
-                
-                    
-                    </SectionContent>
               
-                    <section className="logos-container wrap wrap-px">
-            <div className="logos-content-container p-2 md:p-5 rounded-2xl  bg-badge gap-y-2 px-6 py-16">
-                <div className="content-container text-black text-center ">
-                <MyComponent/>
-
-
-                    </div>
-                    </div>
-                    </section>
-            
-                    </div>
         </section>
     )
 }

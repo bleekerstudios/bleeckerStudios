@@ -7,6 +7,7 @@ import CTA from "@components/CallToAction"
 import Button from '@components/Button/Button'
 import { ButtonVariant } from '@components/Button/Button'
 import MyComponent from '../components/insights'
+import SoftwareCounter from '@components/softwareins'
 
 const UseCases = () => {
     const pageTitle = `Services | ${process.env.siteTitle} `
@@ -23,7 +24,8 @@ const UseCases = () => {
                 icon="lucide:package"
 
             >
-                <p>Below, you&apos;ll find a breakdown of our services. We&apos;ll leverage these during phase 2 & 3 of our workflow. Have an idea of what you need? Let&apos;s chat. </p>
+                <p>Below, you&apos;ll find a breakdown of our services. We design these tools and strategies during the solution design & integation phase of our workflow. They are ultimately the tools you will leverage to improve operational efficency.</p>
+                
 
 
                 <div className="button-container  md:flex flex-wrap gap-4 ml-auto">
@@ -32,9 +34,18 @@ const UseCases = () => {
 
                 </div>
 
-
+                
               
             </SectionContent>
+
+
+
+       
+
+            
+
+         
+
             
             <SectionHighlight 
                 icon= 'lucide:settings'
@@ -45,7 +56,6 @@ const UseCases = () => {
                 isReversed={true}
             />
 
-            
 
                 
            <SectionContent 
@@ -61,6 +71,7 @@ const UseCases = () => {
 
                 <Button variant={ButtonVariant.primary} text="Get Started" link="/getStarted" />
 
+                
 
 
                 
@@ -110,6 +121,17 @@ const UseCases = () => {
                 imageAlt="Lorem ipsum dolor sit"
                 isReversed={true}
             />
+
+<section className="logos-container wrap wrap-px">
+<div className="logos-content-container p-2 md:p-5 rounded-2xl  bg-badge gap-y-2  py-5 ">
+<div className="content-container text-black text-center mt-5">
+<SoftwareCounter/>
+
+
+
+    </div>
+    </div>
+    </section>
             <CTA />
 
 

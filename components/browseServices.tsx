@@ -4,27 +4,29 @@ import SectionHighlight from "@components/Section/SectionHighlight"
 import Button, { ButtonVariant } from "@components/Button/Button"
 import Stats from "./stats"
 import MyComponent from "./insights"
-import Integration from "./integration"
-import BrowseServices from "./browseServices"
 
 const DATA = [
   
   
   
   
+    
     {
-      title: 'Explore How We Work',
-      content: `We want to hear about your problems and areas you want to improve. From there we'll design and deploy solutions that will save you time, reduce costs, and increase efficency.`,
-      image: '/images/teald.svg',
-      imageAltTag: 'highlight-2',
-      icon: 'lucide:wrench',
-      link: '/howwework',
-      linkTitle: 'How We Work',
-      reversed: false
-    }
+      title: 'Browse our Common Services',
+      content: `Our suite of out-of-the-box services has driven efficiency and cost savings across a range of enterprises`,
+      image: '/images/ptube.svg',
+      imageAltTag: 'highlight-3',
+      icon: 'lucide:plane-takeoff',
+      link: '/Services',
+      linkTitle: 'Services',
+      reversed: true
+
+
+    },
+    
   ]
 
-const Landing = () => {
+const BrowseServices = () => {
     const alignment = "left"
     return (
         <section className="highlight-container ">
@@ -33,13 +35,11 @@ const Landing = () => {
           
                 
                 <SectionContent 
-                    title = "Technical Services, At Your Pace"
-                    subheading = "What We Do"
                     alignment = {alignment}
                     isBigHeader = {false}
                 >
                   <p></p>
-                  <p> Bleecker Studios provides technical services that create lasting value for businesses and users. Our approach is flexible, we can either modify one, or many components of your technology ecosystem.</p>
+                  <p> </p>
                   
 
                 </SectionContent>
@@ -66,41 +66,6 @@ const Landing = () => {
                 }
             </div>
 
-            <div className="flex flex-col md:flex-row px-6">
-
-<SectionContent
-title = "Impact, Just Weeks After Deployment"
-subheading = "Our Results"
-
-alignment = "left"
-isBigHeader = {true}>
-    <p>We focus on implementing solutions that deliever tangible business outcomes.</p>
-
-
-
-    
-    </SectionContent>
-
-    <section className="logos-container wrap wrap-px">
-<div className="logos-content-container p-2 md:p-5 rounded-2xl  bg-badge gap-y-2 px-6 py-16 ">
-<div className="content-container text-black text-center mt-5">
-<MyComponent/>
-
-
-
-    </div>
-    </div>
-    </section>
-
-    </div>
-
-
-    <BrowseServices/>
-
-    <Integration/>
-
-
-
 
 
 
@@ -110,4 +75,4 @@ isBigHeader = {true}>
     )
 }
 
-export default Landing
+export default BrowseServices
