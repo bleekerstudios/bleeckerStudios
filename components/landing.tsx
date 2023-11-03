@@ -11,9 +11,9 @@ const DATA = [
   
   
     {
-      title: 'Architect your ideal state',
+      title: 'Build Your Tech Ecosystem',
       content: `We want to hear about your problems and areas you want to improve. From there we'll design and deploy solutions that will save you time, reduce costs, and increase efficency.`,
-      image: '/images/greenprogress.svg',
+      image: '/images/teald.svg',
       imageAltTag: 'highlight-2',
       icon: 'lucide:wrench',
       link: '/howwework',
@@ -23,7 +23,7 @@ const DATA = [
     {
       title: 'Browse our Common Services',
       content: `We have a detailed repository of out of the box services that have made an impact across many enterprises`,
-      image: '/images/pssvg.svg',
+      image: '/images/ptube.svg',
       imageAltTag: 'highlight-3',
       icon: 'lucide:plane-takeoff',
       link: '/getStarted',
@@ -35,7 +35,7 @@ const DATA = [
     {
       title: 'Just Need an Integration?',
       content: `Lets connect. We can spin something up in the matter of hours.`,
-      image: '/images/pssvg.svg',
+      image: '/images/redtop.svg',
       imageAltTag: 'highlight-3',
       icon: 'lucide:plane-takeoff',
       link: '/getStarted',
@@ -59,7 +59,7 @@ const Landing = () => {
                     isBigHeader = {false}
                 >
                   <p></p>
-                  <p>We help partners with a variety of needs. Details Below.</p>
+                  <p>We help partners with a variety of needs, Details Below.</p>
                   
 
                 </SectionContent>
