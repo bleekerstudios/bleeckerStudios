@@ -76,12 +76,12 @@ const Hero = () => {
                 <div className="flex flex-col md:flex-row px-6">
 
                 <SectionContent
-                title = "Tangible Results Weeks After Deployment"
-                subheading = "Our Impact"
+                title = "Impact Weeks After Deployment"
+                subheading = "Our Results"
 
                 alignment = "left"
                 isBigHeader = {true}>
-                    <p>We measure success based on quantifiable business impact</p>
+                    <p>We focus on implementing solutions that deliever tangible business outcomes.</p>
                 
                 
                 

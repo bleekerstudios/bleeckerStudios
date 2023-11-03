@@ -5,6 +5,9 @@ import CTA from "@components/CallToAction"
 import Logos from "@components/Logos"
 import SEO from '@components/SEO'
 import MyComponent from "../components/insights"
+import SectionContent from "@components/Section/SectionContent"
+import Landing from "@components/landing"
+
 
 const Home = () => {
   const pageTitle = `Bleecker Studios `
@@ -15,8 +18,20 @@ const Home = () => {
           description="Welcome to our website! We offer a wide range of products and services designed to help you achieve your goals. Whether you're looking for information, support, or simply want to learn more, we're here to help. Explore our site to find out more."
         />
         <Hero />
-        <Highlight />
+        <Landing/>
+
+    
+
+        <div className="highlight-image-container mx-12">
+
+        <Feature />
+        </div>
+
         <CTA />
+
+
+
+
         <Logos />
     </div>
   )

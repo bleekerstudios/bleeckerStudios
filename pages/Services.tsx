@@ -23,9 +23,7 @@ const UseCases = () => {
                 icon="lucide:package"
 
             >
-                <p>Below, you&apos;ll find a breakdown of our services, We&apos;ll leverage these during Phase 2 & 3 of our workflow.</p>
-
-                <p>Alright have an idea of what you need? Let&apos;s chat. </p>
+                <p>Below, you&apos;ll find a breakdown of our services. We&apos;ll leverage these during phase 2 & 3 of our workflow. Have an idea of what you need? Let&apos;s chat. </p>
 
 
                 <div className="button-container  md:flex flex-wrap gap-4 ml-auto">
@@ -78,7 +76,7 @@ const UseCases = () => {
             <SectionHighlight 
                 title="Software Development"
                 icon="lucide:code-2"
-                content="Contruct a new iOS, Android, or web based tool to boost operational efficency and save time. Have an idea for an app? We can build that too."
+                content="Contruct a new iOS, Android, or Web based tools to boost operational efficency and save time. Have an idea for an app? We can build that too."
                 image="/images/finaldarkdonut.svg"
                 imageAlt="Lorem ipsum dolor sit"
             />
@@ -90,7 +88,7 @@ const UseCases = () => {
                 alignment = "center"
                 hasBlockPadding = {true}
             >
-                <p>We&apos;re here to guide your growth. Our expertise has driven success across various domains, including procurement, conducting comprehensive tech stack audits, interactive workshops, detailed product roadmapping sessions, and designing robust software architecture. Understanding that each business has unique needs, we&apos;re eager to delve into yours and identify how our tailored solutions can propel your expansion.</p>
+                <p>We&apos;re here to guide your growth. Our expertise has driven success across various domains, including procurement, conducting comprehensive tech stack audits, interactive workshops, detailed product roadmapping sessions, and designing robust software architecture. Understanding that each business has unique needs, we&apos;re eager to delve into yours and identify how our solutions can propel your expansion.</p>
                 
                 <div className="button-container  md:flex flex-wrap gap-4 ml-auto justify-center">
 
@@ -107,7 +105,7 @@ const UseCases = () => {
                 title="Professional Services & Technical Support"
                 icon="lucide:help-circle"
 
-                content="We aim to be your ultimate support partner in technology. Whether you need custom APIs to seamlessly integrate various applications across your technology ecosystem, or require responsive ad-hoc hardware and software support, we're here for you. Our team excels in breaking down complex technical concepts into easily understandable solutions, ensuring you not only get the support you need but also understand it fully."
+                content="We aim to be your ultimate support partner in technology. Whether you need custom APIs to seamlessly integrate various applications across your technology ecosystem, or require responsive ad-hoc hardware and software support, we're here for you. Our team excels in breaking down complex technical concepts into easily understandable examples, ensuring you get the support you need and learn along the way."
                 image="/images/purplewave2.svg"
                 imageAlt="Lorem ipsum dolor sit"
                 isReversed={true}

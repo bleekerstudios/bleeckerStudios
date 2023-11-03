@@ -26,21 +26,20 @@ const Company = () => {
                
             </SectionContent>
             <SectionImage 
-                className="my-16"
+                className="my-5"
                 src="/images/pinknet.svg"
                 alt="Company Page Hero"
             />
            
-                    <section className="logos-container wrap wrap-px">
+                {/* }    <section className="logos-container wrap wrap-px">
             <div className="logos-content-container p-2 md:p-5 rounded-2xl my-24 bg-badge gap-y-2">
                 <div className="content-container text-black text-center">
-                    <Feature />
 
 
                 </div>
                
             </div>
-        </section>
+    </section> */}
         
                     <Highlight />
 
