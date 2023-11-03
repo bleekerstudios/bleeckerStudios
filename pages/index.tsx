@@ -7,6 +7,7 @@ import SEO from '@components/SEO'
 import MyComponent from "../components/insights"
 import SectionContent from "@components/Section/SectionContent"
 import Landing from "@components/landing"
+import CallToAction from "@components/CallToAction"
 
 
 const Home = () => {
@@ -24,7 +25,7 @@ const Home = () => {
 
         
 
-        <CTA />
+        <CallToAction />
 
 
 

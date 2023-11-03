@@ -14,8 +14,8 @@ const DATA = [
         logo: "/images/logos/logo3.svg",
     },
     {
-        title: "netflix",
-        logo: "/images/logos/logo4.svg",
+        title: "Retool",
+        logo: "/images/logos/retool.svg",
     },
     {
         title: "nextJS",

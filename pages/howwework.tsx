@@ -44,7 +44,6 @@ const Company = () => {
                     <Highlight />
 
 
-            <CallToAction/>
           
             
             <SectionImage 
@@ -52,10 +51,13 @@ const Company = () => {
                 src="/images/burgwave.svg"
                 alt="Company Page Hero"
             />
+            <CallToAction/>
            
-            <Logos
-            />
+            <Logos/>
         </div>
+
+
+
     )
 }
 

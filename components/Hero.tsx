@@ -28,7 +28,7 @@ const Hero = () => {
                         Welcome
                     </BadgeMessage>
                     <BadgeIcon icon="mdi:map-marker-path"/>
-                </BadgeGroup>
+    </BadgeGroup> 
                 
                 <SectionContent 
                     title = "Bleecker Studios"

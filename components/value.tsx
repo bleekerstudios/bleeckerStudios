@@ -27,7 +27,7 @@ const DATA = [
 
 const Value = () => {
     return (
-        <section className="feature-container my-10 py-16  bg-badge rounded-2xl" >
+        <section className="feature-container  py-10  bg-badge rounded-2xl" >
             <div className="feature-content wrap wrap-px">
                 <div className="feature-content-container">
                     <div className="grid grid-cols- md:grid-cols-3 gap-y-12 md:gap-y-5 gap-8">

@@ -7,13 +7,13 @@ const link = "https://www.google.com"
 const CallToAction = () => {
 
     return (
-        <section className="cta-container my-24">
-            <div className="cta-content-container wrap wrap-px">
+        <section className="cta-container my-24 ">
+            <div className="cta-content-container wrap wrap-px  py-6 ">
                 <SectionContent 
                     title = "Don't Know Where To Begin?"
                     alignment = "center"
                 >
-                    <p>Contact Us for some Use Cases</p>
+                    <p className="">Contact us for some details on use cases</p>
 
                     <div className="button-container  md:flex flex-wrap gap-4 ml-auto justify-center">
 
@@ -22,8 +22,8 @@ const CallToAction = () => {
                 </a>
     <p></p> */}
 
-                <a href="https://www.bleeckerstudios-docs.com" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
-                <button className="bg-primary-500 flex font-medium w-full md:w-auto justify-center gap-3 items-center px-8  text-white py-2 rounded-full hover:bg-primary-300  duration-30">Get In Touch</button>
+                <a href="/getStarted" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                <button className="bg-primary-500 flex font-medium w-full md:w-auto justify-center gap-3 items-center px-8 text-white py-2 rounded-full hover:bg-primary-300  duration-30">Get In Touch</button>
                 </a>
                 </div>
 

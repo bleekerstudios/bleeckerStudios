@@ -8,6 +8,7 @@ import Button from '@components/Button/Button'
 import { ButtonVariant } from '@components/Button/Button'
 import MyComponent from '../components/insights'
 import SoftwareCounter from '@components/softwareins'
+import CallToAction from '@components/CallToAction'
 
 const UseCases = () => {
     const pageTitle = `Services | ${process.env.siteTitle} `
@@ -31,9 +32,13 @@ const UseCases = () => {
                 <div className="button-container  md:flex flex-wrap gap-4 ml-auto">
                 <Button variant={ButtonVariant.primary} text="Get Started" link="/getStarted" icon="ph:arrow-right-bold"/> 
 
+                
 
                 </div>
 
+               
+                
+           
                 
               
             </SectionContent>
@@ -136,13 +141,13 @@ const UseCases = () => {
     </section>
 
 
+    <CallToAction/>
     
-            <CTA />
-
 
             
             <Logos
             />
+            
         </div>
     )
 }
