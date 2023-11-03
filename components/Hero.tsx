@@ -40,7 +40,7 @@ const Hero = () => {
 
 
                 </SectionContent>
-                <ButtonGroup className = "wrap-sm wrap-px" alignment={alignment}>
+                <ButtonGroup className = "wrap-sm wrap-px mb-2" alignment={alignment}>
                     <Button 
                         text="Get Started" 
                         link="/getStarted"
@@ -54,8 +54,7 @@ const Hero = () => {
                     
                 </ButtonGroup>
 
-             <br></br>
-                <SectionImage 
+                <SectionImage className="mb-10"
                 src="/images/bluetitle.svg"
                 alt="Hero Image used for Hero Banner"
             />
