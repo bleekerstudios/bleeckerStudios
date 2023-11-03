@@ -12,7 +12,7 @@ const DATA = [
   
     
     {
-      title: 'Browse our Common Services',
+      title: 'Browse Our Common Services',
       content: `Our suite of out-of-the-box services has driven efficiency and cost savings across a range of enterprises`,
       image: '/images/ptube.svg',
       imageAltTag: 'highlight-3',
