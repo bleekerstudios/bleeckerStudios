@@ -29,7 +29,7 @@ const UseCases = () => {
 
 
                 <div className="button-container  md:flex flex-wrap gap-4 ml-auto">
-                <Button variant={ButtonVariant.secondary} text="Get In Touch" link="/getStarted" />
+                * <Button variant={ButtonVariant.primary} text="Get Started" link="/getStarted" /> 
 
 
                 </div>
@@ -50,7 +50,7 @@ const UseCases = () => {
             <SectionHighlight 
                 icon= 'lucide:settings'
                 title="Deploy Tools & Streamline Your Workflows"
-                content="Reduce employee overhead, manual processes, and workplace redundancies with low-cost automated solutions. Or, deploy solutions to help your employees work faster, smarter, and happier."
+                content="Reduce employee overhead, manual processes, and workplace redundancies with low-cost automated solutions. Or, deploy tools to help your employees work faster, smarter, and happier."
                 image="/images/redprogress.svg"
                 imageAlt="Lorem ipsum dolor sit"
                 isReversed={true}
@@ -129,9 +129,14 @@ const UseCases = () => {
 
 
 
+
+
     </div>
     </div>
     </section>
+
+
+    
             <CTA />
 
 

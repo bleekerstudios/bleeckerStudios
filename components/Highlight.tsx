@@ -72,8 +72,8 @@ const Highlight = () => {
 
                 </SectionContent>
                 <ButtonGroup className = "wrap wrap-px" alignment={alignment} >
-                    <Button variant={ButtonVariant.primary} text="Services" link="/Services" icon="ph:arrow-right-bold" />
-                    <Button variant={ButtonVariant.secondary} text="Contact" link="/getStarted" />
+                    <Button variant={ButtonVariant.primary} text="Get Started" link="/getStarted" icon="ph:arrow-right-bold" />
+                    <Button variant={ButtonVariant.secondary} text="Services" link="/Services" />
                 </ButtonGroup>
             </div>
             <div className="highlight-image-container">
