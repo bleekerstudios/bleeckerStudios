@@ -29,7 +29,7 @@ const UseCases = () => {
 
 
                 <div className="button-container  md:flex flex-wrap gap-4 ml-auto">
-                * <Button variant={ButtonVariant.primary} text="Get Started" link="/getStarted" /> 
+                <Button variant={ButtonVariant.primary} text="Get Started" link="/getStarted" icon="ph:arrow-right-bold"/> 
 
 
                 </div>
