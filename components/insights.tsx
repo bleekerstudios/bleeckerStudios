@@ -20,7 +20,7 @@ const CounterComponent = ({ startCount, duration }) => {
     const end = duration;
     if (start === end) return;
 
-    let totalDuration = Math.round(19000 / end); // Assuming you want to animate for about 1000ms (1 second)
+    let totalDuration = Math.round(60000 / end); // Assuming you want to animate for about 1000ms (1 second)
     let timer = setInterval(() => {
       start += 1;
       setCounter(start);
