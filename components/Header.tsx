@@ -14,7 +14,7 @@ const Header = () => {
                                 src="/images/blackestmask.png" 
                                 alt="logo"
                                 className="h-10 w-auto"
-                                height="25"
+                                height="10"
                                 width="100"
                                 priority
                             />

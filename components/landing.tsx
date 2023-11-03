@@ -28,7 +28,7 @@ const Landing = () => {
     const alignment = "left"
     return (
         <section className="highlight-container">
-            <div className="highlight-content ">
+            <div className="highlight-content pt-5">
                 
           
                 

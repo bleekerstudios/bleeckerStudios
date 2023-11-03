@@ -19,7 +19,7 @@ const Hero = () => {
 
     return (
         <section className="hero-container">
-            <div className="hero-content-container py-16 ">
+            <div className="hero-content-container pt-10 ">
                 <BadgeGroup alignment={alignment}>
                     <BadgeContext>
                         <span></span>
@@ -29,6 +29,7 @@ const Hero = () => {
                     </BadgeMessage>
                     <BadgeIcon icon="mdi:map-marker-path"/>
                 </BadgeGroup>
+                
                 <SectionContent 
                     title = "Bleecker Studios"
                     alignment = {alignment}
@@ -46,12 +47,7 @@ const Hero = () => {
                         icon="ph:arrow-right-bold"
                         variant={ButtonVariant.primary}
                     />
-                    <Button 
-                        text="Contact Us" 
-                        link="/getStarted"
-                        variant={ButtonVariant.secondary}
-                    />
-
+                    
 
 
 
