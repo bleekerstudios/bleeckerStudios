@@ -27,7 +27,7 @@ const DATA = [
     },
     {
         label: 'LinkedIn',
-        href: 'https://www.linkedin.com/'
+        href: 'https://www.linkedin.com/company/bleeckerstudios/about'
     }
 ]
 
