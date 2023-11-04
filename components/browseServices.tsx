@@ -29,25 +29,8 @@ const DATA = [
 const BrowseServices = () => {
     const alignment = "left"
     return (
-        <section className="highlight-container mb-5 ">
-            <div className="highlight-content ">
-                
-          
-                
-                <SectionContent 
-                    alignment = {alignment}
-                    isBigHeader = {false}
-                >
-                  <p></p>
-                  <p> </p>
-                  
-
-                </SectionContent>
-               {/*} <ButtonGroup className = "wrap wrap-px" alignment={alignment} >
-                    <Button variant={ButtonVariant.primary} text="How We Work" link="/howwework" icon="ph:arrow-right-bold" />
-                    <Button variant={ButtonVariant.secondary} text="Learn More" link="/getStarted" />
-    </ButtonGroup> */}
-            </div>
+        <section className="highlight-container ">
+            
             <div className="highlight-image-container">
                 {
                   DATA.map( (item, index)=> (
