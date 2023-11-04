@@ -29,7 +29,7 @@ const DATA = [
 const BrowseServices = () => {
     const alignment = "left"
     return (
-        <section className="highlight-container ">
+        <section className="highlight-container mb-5 ">
             <div className="highlight-content ">
                 
           

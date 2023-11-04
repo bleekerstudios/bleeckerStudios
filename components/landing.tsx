@@ -49,7 +49,7 @@ const Landing = () => {
                     <Button variant={ButtonVariant.secondary} text="Learn More" link="/getStarted" />
     </ButtonGroup> */}
             </div>
-            <div className="highlight-image-container">
+            <div className="highlight-image-container mb-5">
                 {
                   DATA.map( (item, index)=> (
                     <SectionHighlight 
@@ -96,9 +96,9 @@ isBigHeader = {true}>
     </div>
 
 
-    <BrowseServices/>
+    <BrowseServices />
 
-    <Integration/>
+    <Integration />
 
 
 

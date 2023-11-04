@@ -59,7 +59,7 @@ const Company = () => {
                   
 
                 </SectionContent>
-                <ButtonGroup className = "wrap wrap-px" alignment="" >
+                <ButtonGroup className = "wrap wrap-px"  >
                     <Button variant={ButtonVariant.primary} text="Get Started" link="/getStarted" icon="ph:arrow-right-bold" />
                     <Button variant={ButtonVariant.secondary} text="Services" link="/Services" />
                 </ButtonGroup>

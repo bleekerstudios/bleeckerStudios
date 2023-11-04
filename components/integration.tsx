@@ -26,7 +26,7 @@ const DATA = [
 const Integration = () => {
     const alignment = "left"
     return (
-        <section className="highlight-container ">
+        <section className="mb-10">
             <div className="highlight-content ">
                 
           
