@@ -27,7 +27,7 @@ const PhaseTwo = () => {
     const alignment = "left"
     return (
         <section className="highlight-container ">
-            <div className="highlight-content mb-10">
+            <div className="highlight-content ">
                 
           
                 
