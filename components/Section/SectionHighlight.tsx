@@ -16,7 +16,7 @@ type SectionHighlightProps = {
 const SectionHighlight = ({ title, content, isReversed, icon, image, imageAlt, link, linkTitle }:SectionHighlightProps) => {
     return (
         <section className="highlight-content-container wrap wrap-px">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center my-16">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center ">
                 <div className={`image-container ${ isReversed ? 'order-1 md:order-2' : 'order-1' }`}>
                         {
                             image && (
@@ -27,7 +27,7 @@ const SectionHighlight = ({ title, content, isReversed, icon, image, imageAlt, l
                                         alt={imageAlt}
                                         className={isReversed ? 'ml-auto' : ''}
                                         width={302}
-                                        height={515}
+                                        height={200}
                                     />
                                 </figure>
                             )

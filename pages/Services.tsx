@@ -57,12 +57,12 @@ const UseCases = () => {
 ">
 
 <SectionContent
-title = "Entreprise Grade Deployments"
-subheading = "Our Deployment"
+title = "Built For Enterprise Scale"
+subheading = "Our Solutions"
 
 alignment = "left"
 isBigHeader = {true}>
-    <p className="text-white">Apps, connectors, and strategies that scale as you grow.</p>
+    <p className="text-white">Apps, connectors, and strategies that are built for your current state and future state.</p>
 
 
 
