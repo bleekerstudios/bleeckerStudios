@@ -14,7 +14,7 @@ const DATA = [
  
     {
       title: 'Deploy & Educate',
-      content: `Phase 3: Go Live. Once the solution is rolled out, we'll design a custom offboarding strategy. This will encompass a suite ofenablement resources to ramp your team and guarantee a smooth transition + adoption.`,
+      content: `We're Live! Once the solution is rolled out, we'll design an offboarding strategy that will encompass a suite of enablement resources to ramp your team and guarantee a smooth transition + adoption.`,
       image: '/images/pssvg.svg',
       imageAltTag: 'highlight-3',
       icon: 'lucide:plane-takeoff',
