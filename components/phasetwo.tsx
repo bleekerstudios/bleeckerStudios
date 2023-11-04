@@ -11,7 +11,7 @@ const DATA = [
   
   
   {
-      title: 'Phase 2 | Solution Design',
+      title: 'Solution Design',
       content: `Once we've defined your end state we'll begin architecting a solution that's uniquely suited to your needs.`,
       image: '/images/thicktube.svg',
       imageAltTag: 'highlight-1',

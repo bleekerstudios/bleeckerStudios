@@ -93,7 +93,7 @@ export default function BasicTabs() {
                 alignment = "center"
                 hasBlockPadding = {true}
             >
-                <p>Expand your market presence with our innovative marketing and exposure strategies. Our team is ready to boost your impact through tailored advertising, impactful design, strategic social media, and comprehensive marketing services. We specialize in refining your brand voice and developing a focused content strategy, all while streamlining processes through smart automation.</p>
+                <p>Expand your presence with our innovative marketing and advertising strategies. We specialize in content strategy, social media automation, film, search engine optimization, and much more. </p>
 
                 <div className="button-container  md:flex flex-wrap gap-4 ml-auto justify-center">
 
@@ -170,7 +170,7 @@ export default function BasicTabs() {
                 title="Professional Services & Technical Support"
                 icon="lucide:help-circle"
 
-                content="We aim to be your ultimate support partner in technology. Whether you need custom APIs to seamlessly integrate various applications across your technology ecosystem, or require responsive ad-hoc hardware and software support, we're here for you. Our team excels in breaking down complex technical concepts into easily understandable examples, ensuring you get the support you need and learn along the way."
+                content="We're here for the tactical work. We build custom APIs to seamlessly integrate various applications across your technology ecosystem, or offer responsive ad-hoc hardware and software support."
                 image="/images/purplewave2.svg"
                 imageAlt="Lorem ipsum dolor sit"
                 isReversed={true}

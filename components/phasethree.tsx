@@ -12,7 +12,7 @@ const DATA = [
   
   
     {
-      title: 'Phase 3 | Develop + Integrate',
+      title: 'Develop + Integrate',
       content: `Build. Iterate. Integrate. In Phase 3, we focus on materializing your solution. We'll actively seek feedback and ensure close collaboration throughout this implementation stage.`,
       image: '/images/greenprogress.svg',
       imageAltTag: 'highlight-2',
