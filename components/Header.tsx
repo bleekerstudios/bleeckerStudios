@@ -5,15 +5,15 @@ import Image from 'next/image'
 
 const Header = () => {
     return (
-        <header id="header" className=" bg-white shadow fixed w-full z-10 top-0 px-12 ">
-            <div className="header-container relative py-3 justify-between md:justify-start flex items-center ">
+        <header id="header" className=" bg-white shadow fixed w-full z-10 top-0 px-6 ">
+            <div className="header-container relative py-1 justify-between md:justify-start flex items-center py-3 ">
                 <div className="flex items-center mr-8 ">
                     <h1>
                         <Link href="/" className="logo">
                             <Image 
                                 src="/images/blackestmask.png" 
                                 alt="logo"
-                                className="h-10 w-auto"
+                                className="h-7 w-auto"
                                 height="10"
                                 width="100"
                                 priority
@@ -23,12 +23,8 @@ const Header = () => {
                     </h1>
                 </div>
                 <Nav />
-                <div className="button-container hidden md:flex flex-wrap gap-4 ml-auto ">
-                    <Button 
-                        text="Learn More"
-                        link="getStarted"
-                        variant={ButtonVariant.primary}
-                    />
+                <div className="hidden md:flex flex-wrap gap-4 ml-auto ">
+                   
                     
                 </div>
             </div>
