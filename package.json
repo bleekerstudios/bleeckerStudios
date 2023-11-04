@@ -27,6 +27,10 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.23.2",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/lab": "^5.0.0-alpha.151",
+    "@mui/material": "^5.14.16",
     "@nextui-org/react": "^2.1.13",
     "@swc/helpers": "^0.5.3",
     "axios": "^1.6.0",

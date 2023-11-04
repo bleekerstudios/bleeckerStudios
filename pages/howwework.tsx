@@ -6,6 +6,10 @@ import Logos from "@components/Logos"
 import Feature from '@components/Feature'
 import Highlight from '@components/Highlight'
 import CallToAction from '@components/CallToAction'
+import PhaseTabs from '@components/phasetabs'
+import Button from '@components/Button/Button'
+import { ButtonVariant } from '@components/Button/Button'
+import ButtonGroup from '@components/ButtonGroup'
 
 const Company = () => {
     const pageTitle = `How We Work | ${process.env.siteTitle}`
@@ -40,8 +44,28 @@ const Company = () => {
                
             </div>
     </section> */}
+
+<div className="highlight-content mb-10">
+                
+          
+                
+                <SectionContent 
+                    title = "Building What You Need, Exactly How You Need It"
+                    subheading = "Our Approach"
+                    alignment = "left"
+                    isBigHeader = {false}
+                >
+                  <br></br>
+                  
+
+                </SectionContent>
+                <ButtonGroup className = "wrap wrap-px" alignment="" >
+                    <Button variant={ButtonVariant.primary} text="Get Started" link="/getStarted" icon="ph:arrow-right-bold" />
+                    <Button variant={ButtonVariant.secondary} text="Services" link="/Services" />
+                </ButtonGroup>
+            </div>
         
-                    <Highlight />
+                    <PhaseTabs />
 
 
           

@@ -67,7 +67,7 @@ const Landing = () => {
                 }
             </div>
 
-            <div className="flex flex-col md:flex-row px-6 bg-zinc-900	py-10 text-gray-200	">
+            <div className="flex flex-col md:flex-row px-6 bg-zinc-900	py-10 text-gray-200 rounded-2xl	shadow-2xl	">
 
 <SectionContent
 title = "Impact, Just Weeks After Deployment"
@@ -83,7 +83,7 @@ isBigHeader = {true}>
     </SectionContent>
 
     <section className="logos-container wrap wrap-px 	">
-<div className="logos-content-container p-2 md:p-5 rounded-2xl  bg-badge gap-y-2 px-6 py-16 ">
+<div className="logos-content-container p-2 md:p-5 rounded-2xl  bg-badge gap-y-2 px-6 py-16 shadow-2xl  ">
 <div className="content-container text-black text-center mt-5 ">
 <MyComponent/>
 

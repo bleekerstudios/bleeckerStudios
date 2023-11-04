@@ -4,30 +4,36 @@ import SectionHighlight from "@components/Section/SectionHighlight"
 import Button, { ButtonVariant } from "@components/Button/Button"
 import Stats from "./stats"
 const DATA = [
-  {
-    title: 'Phase 1 | Evaluate Current State',
-    content: `We'll learn about your organization's current state, identifying roadblocks, inefficiencies, and pain points along the way. Once aligned, we'll start ideating around your ideal state and create a plan on how to get there.`,
-    image: '/images/gfunnel.svg',
-    imageAltTag: 'highlight-1',
-    icon: 'lucide:messages-square',
-    link: '/getStarted',
-    linkTitle: 'Learn More',
-    reversed: false
-  },
+ 
   
   
   
   
   
   
-
+    {
+      title: 'Phase 3 | Develop + Integrate',
+      content: `Build. Iterate. Integrate. In Phase 3, we focus on materializing your solution. We'll actively seek feedback and ensure close collaboration throughout this implementation stage.`,
+      image: '/images/greenprogress.svg',
+      imageAltTag: 'highlight-2',
+      icon: 'lucide:wrench',
+      link: '/Services',
+      linkTitle: 'Overview',
+      reversed: false
+    },
+    
   ]
 
-const Highlight = () => {
+const PhaseThree = () => {
     const alignment = "left"
     return (
         <section className="highlight-container ">
-            
+            <div className="highlight-content mb-10">
+                
+          
+                
+             
+            </div>
             <div className="highlight-image-container">
                 {
                   DATA.map( (item, index)=> (
@@ -49,4 +55,4 @@ const Highlight = () => {
     )
 }
 
-export default Highlight
+export default PhaseThree

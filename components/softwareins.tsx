@@ -20,7 +20,7 @@ const CounterComponent = ({ startCount, duration }) => {
     const end = duration;
     if (start === end) return;
 
-    let totalDuration = Math.round(19000 / end); // Assuming you want to animate for about 1000ms (1 second)
+    let totalDuration = Math.round(40000 / end); // Assuming you want to animate for about 1000ms (1 second)
     let timer = setInterval(() => {
       start += 1;
       setCounter(start);
@@ -55,12 +55,12 @@ const SoftwareCounter = () => {
 
 
         <span className="text-4xl font-bold text-black-900">
-          <CounterComponent startCount={0} duration={5} /> Components 
+          <CounterComponent startCount={0} duration={12} /> Components 
         </span>
         <p>Connected on average across our partners tech stack </p>
 
         <span className="text-4xl font-bold text-black-900">
-          $<CounterComponent startCount={0} duration={3} />,000
+          $<CounterComponent startCount={0} duration={300} />0
         </span>
         <p>Average technical debt removed</p>
 

@@ -9,6 +9,8 @@ import { ButtonVariant } from '@components/Button/Button'
 import MyComponent from '../components/insights'
 import SoftwareCounter from '@components/softwareins'
 import CallToAction from '@components/CallToAction'
+import VerticalTabs from '@components/servicetabs'
+import BasicTabs from '@components/servicetabs'
 
 const UseCases = () => {
     const pageTitle = `Services | ${process.env.siteTitle} `
@@ -26,7 +28,6 @@ const UseCases = () => {
 
             >
                 <p>We&apos;ve segmented our services into a few catergories. We construct these services during the solution design & integation phase of our workflow. They are ultimately the tools you will leverage to improve operational efficency.</p>
-                
 
 
                 <div className="button-container  md:flex flex-wrap gap-4 ml-auto">
@@ -44,7 +45,7 @@ const UseCases = () => {
             </SectionContent>
 
 
-
+                <BasicTabs/>
        
 
             
@@ -52,87 +53,26 @@ const UseCases = () => {
          
 
             
-            <SectionHighlight 
-                icon= 'lucide:settings'
-                title="Deploy Tools & Streamline Your Workflows"
-                content="Reduce employee overhead, manual processes, and workplace redundancies with low-cost automated solutions. Or, deploy tools to help your employees work faster, smarter, and happier."
-                image="/images/redprogress.svg"
-                imageAlt="Lorem ipsum dolor sit"
-                isReversed={true}
-            />
+                <div className="flex flex-col md:flex-row px-6 bg-zinc-900	py-10 text-gray-200 rounded-2xl	shadow-2xl
+">
+
+<SectionContent
+title = "Entreprise Grade Deployments"
+subheading = "Our Deployment"
+
+alignment = "left"
+isBigHeader = {true}>
+    <p className="text-white">Apps, connectors, and strategies that scale as you grow.</p>
 
 
-                
-           <SectionContent 
-                title = "Expand Your Digital Footprint"
-                icon= 'lucide:clapperboard'
 
-                alignment = "center"
-                hasBlockPadding = {true}
-            >
-                <p>Expand your market presence with our innovative marketing and exposure strategies. Our team is ready to boost your impact through tailored advertising, impactful design, strategic social media, and comprehensive marketing services. We specialize in refining your brand voice and developing a focused content strategy, all while streamlining processes through smart automation.</p>
+    
+    </SectionContent>
 
-                <div className="button-container  md:flex flex-wrap gap-4 ml-auto justify-center">
-
-                <Button variant={ButtonVariant.primary} text="Get Started" link="/getStarted" />
-
-                
-
-
-                
-
-               {/*  <a href="https://bleecker-studios-docs.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
-                <button className="bg-primary-500 flex font-medium w-full md:w-auto justify-center gap-3 items-center px-8  text-white py-2 rounded-full hover:bg-primary-300  duration-30">Details</button>
-    </a>  */}
-                </div>
-            </SectionContent>
-
-
-            
-            <SectionHighlight 
-                title="Software Development"
-                icon="lucide:code-2"
-                content="Contruct a new iOS, Android, or Web based tools to boost operational efficency and save time. Have an idea for an app? We can build that too."
-                image="/images/finaldarkdonut.svg"
-                imageAlt="Lorem ipsum dolor sit"
-            />
-
-             <SectionContent 
-                title = "Business Development"
-                icon="lucide:bar-chart-big"
-
-                alignment = "center"
-                hasBlockPadding = {true}
-            >
-                <p>We&apos;re here to guide your growth. Our expertise has driven success across various domains, including procurement, conducting comprehensive tech stack audits, interactive workshops, detailed product roadmapping sessions, and designing robust software architecture. Understanding that each business has unique needs, we&apos;re eager to delve into yours and identify how our solutions can propel your expansion.</p>
-                
-                <div className="button-container  md:flex flex-wrap gap-4 ml-auto justify-center">
-
-                <Button variant={ButtonVariant.primary} text="Schedule a Meeting" link="/getStarted" />
-
-
-                {/* <a href="https://bleecker-studios-docs.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
-                <button className="bg-primary-500 flex font-medium w-full md:w-auto justify-center gap-3 items-center px-8  text-white py-2 rounded-full hover:bg-primary-300  duration-30">Overview</button>
-</a> */}
-                </div>
-
-            </SectionContent>
-            <SectionHighlight 
-                title="Professional Services & Technical Support"
-                icon="lucide:help-circle"
-
-                content="We aim to be your ultimate support partner in technology. Whether you need custom APIs to seamlessly integrate various applications across your technology ecosystem, or require responsive ad-hoc hardware and software support, we're here for you. Our team excels in breaking down complex technical concepts into easily understandable examples, ensuring you get the support you need and learn along the way."
-                image="/images/purplewave2.svg"
-                imageAlt="Lorem ipsum dolor sit"
-                isReversed={true}
-            />
-
-<section className="logos-container wrap wrap-px ">
-<div className="logos-content-container p-2 md:p-5 rounded-2xl  bg-badge gap-y-2  py-5 ">
-<div className="content-container text-black text-center mt-5">
+    <section className="logos-container wrap wrap-px  rounded-2xl 	">
+<div className="logos-content-container p-2 md:p-5 rounded-2xl  bg-badge gap-y-2 px-6 py-16 ">
+<div className="content-container text-black text-center mt-5 rounded-2xl ">
 <SoftwareCounter/>
-
-
 
 
 
@@ -140,6 +80,17 @@ const UseCases = () => {
     </div>
     </section>
 
+    </div>
+
+
+            
+           
+
+
+
+
+
+    
 
     <CallToAction/>
     
