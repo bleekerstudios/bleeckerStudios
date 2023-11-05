@@ -27,7 +27,7 @@ const UseCases = () => {
                 icon="lucide:package"
 
             >
-                <p>We construct these services during the solution design & integation phase of our workflow. Ultimately, these tools you will leverage to improve operational efficency.</p>
+                <p>An overview of the strategies we leverage to improve your workflows.</p>
 
 
                 <div className="button-container  md:flex flex-wrap gap-4 ml-auto">
