@@ -13,7 +13,7 @@ const DATA = [
   
     {
       title: 'Develop + Integrate',
-      content: `Build. Iterate. Integrate. Phase 3 focuses on materializing your solution and maintaining a tight feedback loop, ensuring we're building the right thing.`,
+      content: `Phase 3 focuses on materializing your solution and maintaining a tight feedback loop, ensuring we iterate when needed.`,
       image: '/images/greenprogress.svg',
       imageAltTag: 'highlight-2',
       icon: 'lucide:wrench',
