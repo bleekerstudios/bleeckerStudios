@@ -26,7 +26,7 @@ const Company = () => {
                 icon="lucide:truck"
 
             >
-                <p>Our process is segmented out into four phases, we believe each phase plays a critical role in developing a solution designed for your needs.</p>
+                <p>Our process is segmented into four distinct phases, each playing a critical role in developing a solution designed for your needs.</p>
                
             </SectionContent>
             <SectionImage 

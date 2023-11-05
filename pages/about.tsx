@@ -69,9 +69,9 @@ const About = () => {
             >   
             <p></p>
                 <h3>New York, NY</h3>
-                <p> We operate as a remote-first company with a strong physical presence in NYC. We are experts at working collaboratively in any environment (in person, hybrid, and remote). </p>
+                <p> We operate globally with a strong physical presence in NYC. We are experts at working collaboratively in any environment (in person, hybrid, and remote). </p>
 
-                <p>While remote-first expands our reach; We&apos;re advocates for real-time, face-to-face collaboration. From working sessions to on-site meetings, and even casual coffee catch-ups, we value connecting, learning, addressing challenges, and cultivating meaningful relationships.</p>
+                <p>We&apos;re advocates for real-time, face-to-face collaboration. From working sessions to on-site meetings, and even casual coffee catch-ups, we value connecting, learning, addressing challenges, and cultivating meaningful relationships.</p>
             </SectionContent>
             
             <SectionImage 

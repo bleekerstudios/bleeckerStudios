@@ -72,7 +72,7 @@ export default function BasicTabs() {
                 icon= 'lucide:settings'
                 title="Deploy Tools & Streamline Your Workflows"
                 content="Reduce employee overhead, manual processes, and workplace redundancies with low-cost automated solutions. Or, deploy tools to help your employees work faster, smarter, and happier."
-                image="/images/redprogress.svg"
+                image="/images/pinkprogress.svg"
                 imageAlt="Lorem ipsum dolor sit"
                 isReversed={true}
             />
