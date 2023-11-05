@@ -71,7 +71,7 @@ export default function BasicTabs() {
       <SectionHighlight 
                 icon= 'lucide:settings'
                 title="Deploy Tools & Streamline Your Workflows"
-                content="Reduce employee overhead, manual processes, and workplace redundancies with low-cost automated solutions. Or, deploy tools to help your employees work faster, smarter, and happier."
+                content="ChatGPT, Salesforce, Jira, Slack, GoogleOffice, and much more. Add or modify your software stack."
                 image="/images/pinkprogress.svg"
                 imageAlt="Lorem ipsum dolor sit"
                 isReversed={true}
