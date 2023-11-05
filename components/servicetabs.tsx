@@ -71,7 +71,7 @@ export default function BasicTabs() {
       <SectionHighlight 
                 icon= 'lucide:settings'
                 title="Deploy Tools & Streamline Your Workflows"
-                content="ChatGPT, Salesforce, Jira, Slack, GoogleOffice, and much more. Add or modify your software stack."
+                content="ChatGPT, Salesforce, Jira, Slack, and GoogleOffice to name a few. We can add or modify any software you need."
                 image="/images/pinkprogress.svg"
                 imageAlt="Lorem ipsum dolor sit"
                 isReversed={true}
