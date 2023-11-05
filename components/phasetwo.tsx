@@ -12,7 +12,7 @@ const DATA = [
   
   {
       title: 'Solution Design',
-      content: `Once we've defined your end state we'll begin architecting a solution that's uniquely suited to your needs.`,
+      content: `We'll define your end state and begin architecting a solution that's uniquely suited to your needs.`,
       image: '/images/thicktube.svg',
       imageAltTag: 'highlight-1',
       icon: 'ph:lightbulb',
