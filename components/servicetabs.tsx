@@ -57,11 +57,11 @@ export default function BasicTabs() {
   sx={{ color: 'black' }} variant="scrollable"
   scrollButtons
   allowScrollButtonsMobile   >
-          <Tab label="Deploy Tools & Streamline Workflows" wrapped {...a11yProps(0)} sx={{ color: 'black' }} />
-          <Tab label="Expand Your Digital Footprint"  wrapped {...a11yProps(1)} sx={{ color: 'black' }} />
+          <Tab label="Application Customizations & Integrations" wrapped {...a11yProps(0)} sx={{ color: 'black' }} />
+          <Tab label="Promotional Services"  wrapped {...a11yProps(1)} sx={{ color: 'black' }} />
           <Tab label="Software Development" wrapped {...a11yProps(3)}  sx={{ color: 'black' }}/>
           <Tab label="Business Development" wrapped {...a11yProps(4)}  sx={{ color: 'black' }}/>
-          <Tab label="Professional Services & Tech Support" wrapped {...a11yProps(5)}  sx={{ color: 'black' }}/>
+          <Tab label="Professional Services & Techincal Support" wrapped {...a11yProps(5)}  sx={{ color: 'black' }}/>
 
 
         </Tabs>
@@ -70,7 +70,7 @@ export default function BasicTabs() {
 
       <SectionHighlight 
                 icon= 'lucide:settings'
-                title="Deploy Tools & Streamline Your Workflows"
+                title="Application Customizations & Integrations"
                 content="ChatGPT, Salesforce, Jira, Slack, and GoogleOffice to name a few. We can add or modify any software you need."
                 image="/images/pinkprogress.svg"
                 imageAlt="Lorem ipsum dolor sit"
@@ -87,15 +87,15 @@ export default function BasicTabs() {
 
 
       <SectionContent 
-                title = "Expand Your Digital Footprint"
+                title = "Promotional Services"
                 icon= 'lucide:clapperboard'
 
                 alignment = "center"
                 hasBlockPadding = {true}
             >
-                <p>Expand your presence with our innovative marketing and advertising strategies. We specialize in content strategy, social media automation, film, search engine optimization, and much more. </p>
+                <p>Expand Your digital footprint and increase market presence with our innovative marketing and advertising strategies. We specialize in content strategy, social media automation, film, search engine optimization, and much more.</p>
 
-                <div className="button-container  md:flex flex-wrap gap-4 ml-auto justify-center">
+                <div className="button-container  md:flex flex-wrap gap-4 ml-auto justify-center ">
 
                 <Button variant={ButtonVariant.primary} text="Get Started" link="/getStarted" />
 

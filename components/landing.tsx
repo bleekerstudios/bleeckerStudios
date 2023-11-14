@@ -27,8 +27,8 @@ const DATA = [
 const Landing = () => {
     const alignment = "left"
     return (
-        <section className="highlight-container">
-            <div className="highlight-content pt-5">
+        <section className="highlight-container	">
+            <div className="highlight-content pt-5 ">
                 
           
                 
@@ -49,7 +49,7 @@ const Landing = () => {
                     <Button variant={ButtonVariant.secondary} text="Learn More" link="/getStarted" />
     </ButtonGroup> */}
             </div>
-            <div className="highlight-image-container mb-5">
+            <div className="highlight-image-container mb-5 ">
                 {
                   DATA.map( (item, index)=> (
                     <SectionHighlight 
