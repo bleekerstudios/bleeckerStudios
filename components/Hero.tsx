@@ -18,7 +18,7 @@ const Hero = () => {
     const alignment = "center"
 
     return (
-        <section className="hero-container bg-zinc-100">
+        <section className="hero-container bg-lime-100	">
             <div className="hero-content-container pt-10  ">
                 <BadgeGroup alignment={alignment}>
                     <BadgeContext>
@@ -55,7 +55,7 @@ const Hero = () => {
                 </ButtonGroup>
 
                 <SectionImage className=""
-                src="/images/bluetitle.svg"
+                src="/images/blackgroupwave.svg"
                 alt="Hero Image used for Hero Banner"
             />
 

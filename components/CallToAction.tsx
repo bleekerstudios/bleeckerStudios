@@ -7,13 +7,13 @@ const link = "https://www.google.com"
 const CallToAction = () => {
 
     return (
-        <section className="cta-container py-24  ">
+        <section className="cta-container pt-20  ">
             <div className="cta-content-container wrap wrap-px  py-6 ">
                 <SectionContent 
                     title = "Don't Know Where To Begin?"
                     alignment = "center"
                 >
-                    <p className="">Contact us for some details on use cases</p>
+                    <p className="">Contact us for more details</p>
 
                     <div className="button-container  md:flex flex-wrap gap-4 ml-auto justify-center">
 

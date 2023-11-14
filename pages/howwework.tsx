@@ -70,7 +70,7 @@ const Company = () => {
           
             
             <SectionImage 
-                className="my-24"
+                className="mt-13"
                 src="/images/burgwave.svg"
                 alt="Company Page Hero"
             />
