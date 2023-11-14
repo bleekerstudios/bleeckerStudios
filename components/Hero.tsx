@@ -52,7 +52,7 @@ const Hero = () => {
         duration: 10,
         ease: "easeInOut",
         times: [0, 0.2, 0.5, 0.8, 1],
-        repeat: Infinity,
+        repeat: 1,
         repeatDelay: 10
       }}
     >
