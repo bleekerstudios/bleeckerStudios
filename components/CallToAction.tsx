@@ -7,7 +7,7 @@ const link = "https://www.google.com"
 const CallToAction = () => {
 
     return (
-        <section className="cta-container my-24 ">
+        <section className="cta-container py-24  ">
             <div className="cta-content-container wrap wrap-px  py-6 ">
                 <SectionContent 
                     title = "Don't Know Where To Begin?"

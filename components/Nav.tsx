@@ -30,8 +30,8 @@ const Nav = () => {
   }
 
   return (
-    <nav className="header-nav text-black/60">
-      <div className="container ">
+    <nav className="header-nav text-black/60 ">
+      <div className="container  ">
         <button
           // ref={menuToggle}
           // onClick={toggleMenu}

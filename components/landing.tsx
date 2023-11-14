@@ -27,8 +27,8 @@ const DATA = [
 const Landing = () => {
     const alignment = "left"
     return (
-        <section className="highlight-container	">
-            <div className="highlight-content pt-5 ">
+        <section className="highlight-container bg-zinc-100		">
+            <div className="highlight-content pt-5	 ">
                 
           
                 
@@ -95,12 +95,18 @@ isBigHeader = {true}>
 
     </div>
 
+    <div className="cta-container py-24 bg-zinc-100	">
 
     <BrowseServices />
 
+    </div>
+
+
+
+    <div className="cta-container py-24 bg-pink-100		 border-solid border-2 border-black">
     <Integration />
 
-
+</div>
 
 
 

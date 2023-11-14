@@ -14,7 +14,7 @@ import ButtonGroup from '@components/ButtonGroup'
 const Company = () => {
     const pageTitle = `How We Work | ${process.env.siteTitle}`
     return (
-        <div className="main-content-container wrap pt-10">
+        <div className="main-content-container wrap pt-10 ">
             <SEO 
                 title={pageTitle}
                 description="Welcome to our website! We offer a wide range of products and services designed to help you achieve your goals. Whether you're looking for information, support, or simply want to learn more, we're here to help. Explore our site to find out more."
