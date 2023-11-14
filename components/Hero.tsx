@@ -54,7 +54,7 @@ const Hero = () => {
                     
                 </ButtonGroup>
 
-                <SectionImage className=""
+                <SectionImage 
                 src="/images/editedpwave.svg"
                 alt="Hero Image used for Hero Banner"
             />
