@@ -11,25 +11,7 @@ import MyComponent from "./insights"
 import { motion } from "framer-motion";
 
 
-const container = {
-    hidden: { opacity: 1, scale: 0 },
-    visible: {
-      opacity: 1,
-      scale: 1,
-      transition: {
-        delayChildren: 0.3,
-        staggerChildren: 0.2
-      }
-    }
-  };
-  
-  const item = {
-    hidden: { y: 20, opacity: 0 },
-    visible: {
-      y: 0,
-      opacity: 1
-    }
-  };
+
 
  
   
@@ -40,25 +22,11 @@ const Hero = () => {
     const alignment = "center"
 
     return (
-        <section className="hero-container">
+        <section className="hero-container pt-10   bg-lime-100">
 
 
 
-<motion.div
-      className="box hero-content-container pt-10  bg-lime-100 "
-      animate={{
-        scale: [1, 2, 2, 1, 1],
-        rotate: [0, 0, 0, 0, 0],
-        borderRadius: ["0%", "0%", "0%", "0%", "0%"]
-      }}
-      transition={{
-        duration: 2,
-        ease: "easeInOut",
-        times: [0, 0.2, 0.5, 0.8, 1],
-        repeat: 0,
-        repeatDelay: 0
-      }}
-    >
+
 
 
                 <BadgeGroup alignment={alignment}>
@@ -70,6 +38,24 @@ const Hero = () => {
                     </BadgeMessage>
                     <BadgeIcon icon="mdi:map-marker-path"/>
     </BadgeGroup> 
+
+    
+
+    <motion.div
+      className="box  bg-lime-100 "
+      animate={{
+        scale: [0, 1, 1, 1, 1],
+        rotate: [0, 0, 0, 0, 0],
+        borderRadius: ["0%", "0%", "0%", "0%", "0%"]
+      }}
+      transition={{
+        duration: 10,
+        ease: "easeInOut",
+        times: [0, 0.2, 0.5, 0.8, 1],
+        repeat: Infinity,
+        repeatDelay: 10
+      }}
+    >
                 
                 <SectionContent 
                     title = "Bleecker Studios"
@@ -89,15 +75,14 @@ const Hero = () => {
                         icon="ph:arrow-right-bold"
                         variant={ButtonVariant.primary}
                     />
-                    
 
 
-
+            
                     
                 </ButtonGroup>
 
+                </motion.div>
 
-            </motion.div>
 
             <SectionImage className=""
                 src="/images/editedpwave.svg"
