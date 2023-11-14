@@ -22,8 +22,7 @@ const Hero = () => {
     const alignment = "center"
 
     return (
-        <section className="hero-container pt-10   bg-lime-100">
-
+        <section className="hero-container pt-10  bg-lime-100 ">
 
 
 
@@ -52,8 +51,8 @@ const Hero = () => {
         duration: 10,
         ease: "easeInOut",
         times: [0, 0.2, 0.5, 0.8, 1],
-        repeat: 1,
-        repeatDelay: 10
+        repeat: 0,
+        repeatDelay: 0
       }}
     >
                 
@@ -83,12 +82,21 @@ const Hero = () => {
 
                 </motion.div>
 
+                
+    
+    
+    
 
-            <SectionImage className=""
+
+            <SectionImage className=" "
                 src="/images/editedpwave.svg"
                 alt="Hero Image used for Hero Banner"
             />
-            
+
+  
+
+
+ 
               
         </section>
     )

@@ -21,6 +21,8 @@ const Header = () => {
                         </Link>
                         <span className="hidden">Bleecker Logo</span>
                     </h1>
+                    
+
                 </div>
                 <Nav />
                 <div className="hidden md:flex flex-wrap gap-4 ml-auto ">

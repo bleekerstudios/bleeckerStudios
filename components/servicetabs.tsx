@@ -61,7 +61,7 @@ export default function BasicTabs() {
           <Tab label="Promotional Services"  wrapped {...a11yProps(1)} sx={{ color: 'black' }} />
           <Tab label="Software Development" wrapped {...a11yProps(3)}  sx={{ color: 'black' }}/>
           <Tab label="Business Development" wrapped {...a11yProps(4)}  sx={{ color: 'black' }}/>
-          <Tab label="Professional Services & Techincal Support" wrapped {...a11yProps(5)}  sx={{ color: 'black' }}/>
+          <Tab label="Professional Services & Technical Support" wrapped {...a11yProps(5)}  sx={{ color: 'black' }}/>
 
 
         </Tabs>
