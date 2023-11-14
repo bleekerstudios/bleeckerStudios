@@ -18,8 +18,8 @@ const Hero = () => {
     const alignment = "center"
 
     return (
-        <section className="hero-container bg-lime-100	">
-            <div className="hero-content-container pt-10  ">
+        <section className="hero-container">
+            <div className="hero-content-container pt-10  bg-lime-100 ">
                 <BadgeGroup alignment={alignment}>
                     <BadgeContext>
                         <span></span>
@@ -40,7 +40,7 @@ const Hero = () => {
 
 
                 </SectionContent>
-                <ButtonGroup className = "wrap-sm wrap-px mb-2" alignment={alignment}>
+                <ButtonGroup className = "wrap-sm wrap-px pb-2" alignment={alignment}>
                     <Button 
                         text="Get Started" 
                         link="/getStarted"
@@ -54,19 +54,13 @@ const Hero = () => {
                     
                 </ButtonGroup>
 
-                <SectionImage 
+
+            </div>
+
+            <SectionImage className=""
                 src="/images/editedpwave.svg"
                 alt="Hero Image used for Hero Banner"
             />
-
-
-
-
-
-
-
-
-            </div>
             
               
         </section>
