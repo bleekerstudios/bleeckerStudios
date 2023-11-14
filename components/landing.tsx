@@ -27,8 +27,8 @@ const DATA = [
 const Landing = () => {
     const alignment = "left"
     return (
-        <section className="highlight-container bg-purple-100	pt-2">
-            <div className="highlight-content pt-5	 ">
+        <section className="highlight-container bg-purple-100	pt-2 ">
+            <div className="highlight-content pt-5">
                 
           
                 
@@ -40,7 +40,7 @@ const Landing = () => {
                     isBigHeader = {false}
                 >
                   <p></p>
-                  <p> Bleecker Studios provides technical services that create lasting value for businesses and users. Our approach is flexible, we can either modify one, or many components of your technology ecosystem.</p>
+                  <p> Our approach is flexible, we can either modify one, or many components of your technology ecosystem. Our solutions solve your problems, improve operational efficiency, and optimize resource utilization.</p>
                   
 
                 </SectionContent>
@@ -67,7 +67,7 @@ const Landing = () => {
                 }
             </div>
 
-            <div className="flex flex-col md:flex-row px-6 bg-zinc-900	py-10 text-gray-200 rounded-2xl	shadow-2xl	">
+            <div className="flex flex-col md:flex-row px-6 bg-zinc-900	py-10 text-gray-200 rounded-2xl	shadow-2xl 	">
 
 <SectionContent
 title = "Impact, Just Weeks After Deployment"
@@ -82,7 +82,7 @@ isBigHeader = {true}>
     
     </SectionContent>
 
-    <section className="logos-container wrap wrap-px 	">
+    <section className="logos-container wrap wrap-px ">
 <div className="logos-content-container p-2 md:p-5 rounded-2xl  bg-badge gap-y-2 px-6 py-16 shadow-2xl  ">
 <div className="content-container text-black text-center mt-5 ">
 <MyComponent/>

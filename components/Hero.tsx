@@ -8,6 +8,28 @@ import BadgeMessage from "@components/Badge/BadgeMessage"
 import BadgeIcon from "@components/Badge/BadgeIcon"
 import Stats from "./stats"
 import MyComponent from "./insights"
+import { motion } from "framer-motion";
+
+
+const container = {
+    hidden: { opacity: 1, scale: 0 },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      transition: {
+        delayChildren: 0.3,
+        staggerChildren: 0.2
+      }
+    }
+  };
+  
+  const item = {
+    hidden: { y: 20, opacity: 0 },
+    visible: {
+      y: 0,
+      opacity: 1
+    }
+  };
 
  
   
@@ -19,7 +41,26 @@ const Hero = () => {
 
     return (
         <section className="hero-container">
-            <div className="hero-content-container pt-10  bg-lime-100 ">
+
+
+
+<motion.div
+      className="box hero-content-container pt-10  bg-lime-100 "
+      animate={{
+        scale: [1, 2, 2, 1, 1],
+        rotate: [0, 0, 0, 0, 0],
+        borderRadius: ["0%", "0%", "0%", "0%", "0%"]
+      }}
+      transition={{
+        duration: 2,
+        ease: "easeInOut",
+        times: [0, 0.2, 0.5, 0.8, 1],
+        repeat: 0,
+        repeatDelay: 0
+      }}
+    >
+
+
                 <BadgeGroup alignment={alignment}>
                     <BadgeContext>
                         <span></span>
@@ -36,11 +77,12 @@ const Hero = () => {
                     isBigHeader = {true}
                 >
                     <h3>Everyone has ideas, we bring them to life.  </h3>
-                    <p>We design, develop, and deploy technology solutions with a singular focus: making technology work for you. Our solutions solve your problems, improve operational efficiency, and optimize resource utilization.</p>
+                    <p>We design, develop, and deploy technology solutions with a singular focus: making technology work for you.</p>
+
 
 
                 </SectionContent>
-                <ButtonGroup className = "wrap-sm wrap-px pb-2" alignment={alignment}>
+                <ButtonGroup className = "wrap-sm wrap-px pb-2 " alignment={alignment}>
                     <Button 
                         text="Get Started" 
                         link="/getStarted"
@@ -55,7 +97,7 @@ const Hero = () => {
                 </ButtonGroup>
 
 
-            </div>
+            </motion.div>
 
             <SectionImage className=""
                 src="/images/editedpwave.svg"
