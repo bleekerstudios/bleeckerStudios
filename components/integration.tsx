@@ -14,7 +14,7 @@ const DATA = [
     {
       title: 'Just Need An Integration?',
       content: `Lets connect. We can spin something up in the matter of hours.`,
-      image: '/images/redtop.svg',
+      image: '/images/whitetop.svg',
       imageAltTag: 'highlight-3',
       icon: 'lucide:braces',
       link: '/getStarted',

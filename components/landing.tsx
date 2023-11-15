@@ -15,7 +15,7 @@ const DATA = [
     {
       title: 'Explore How We Work',
       content: `We want to hear about your problems and areas you want to improve. From there we'll design and deploy solutions that will save you time, reduce costs, and increase efficency.`,
-      image: '/images/teald.svg',
+      image: '/images/darkgraydonut.svg',
       imageAltTag: 'highlight-2',
       icon: 'lucide:boxes',
       link: '/howwework',
@@ -103,7 +103,7 @@ isBigHeader = {true}>
 
 
 
-    <div className="cta-container py-24 bg-pink-100		 border-solid border-2 border-black">
+    <div className="cta-container py-24 bg-yellow-100	 border-solid border-2 border-black">
     <Integration />
 
 </div>

@@ -22,7 +22,7 @@ const Hero = () => {
     const alignment = "center"
 
     return (
-        <section className="hero-container pt-10  bg-lime-100 ">
+        <section className="hero-container pt-10 ">
 
 
 
@@ -41,7 +41,7 @@ const Hero = () => {
     
 
     <motion.div
-      className="box  bg-lime-100 "
+      className="box  "
       animate={{
         scale: [0, 1, 1, 1, 1],
         rotate: [0, 0, 0, 0, 0],
@@ -93,7 +93,12 @@ const Hero = () => {
                 alt="Hero Image used for Hero Banner"
             />
 
-  
+         
+
+
+
+
+   
 
 
  
