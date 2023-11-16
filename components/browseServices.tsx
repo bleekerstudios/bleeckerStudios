@@ -13,7 +13,7 @@ const DATA = [
     
     {
       title: 'Browse Our Common Services',
-      content: `Our suite of out-of-the-box services has driven efficiency and cost savings across a range of enterprises`,
+      content: `Our suite of services has driven efficiency and cost savings across a range of enterprises.`,
       image: '/images/gtube.svg',
       imageAltTag: 'highlight-3',
       icon: 'lucide:folder-search',
