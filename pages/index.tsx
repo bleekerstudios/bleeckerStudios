@@ -8,6 +8,7 @@ import MyComponent from "../components/insights"
 import SectionContent from "@components/Section/SectionContent"
 import Landing from "@components/landing"
 import CallToAction from "@components/CallToAction"
+import Image from "next/image"
 
 
 const Home = () => {
@@ -28,6 +29,8 @@ const Home = () => {
         <CallToAction />
 
 
+    
+  
 
 
         <Logos />

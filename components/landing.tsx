@@ -7,6 +7,13 @@ import MyComponent from "./insights"
 import Integration from "./integration"
 import BrowseServices from "./browseServices"
 
+
+
+
+ 
+
+
+
 const DATA = [
   
   
@@ -28,9 +35,18 @@ const Landing = () => {
     const alignment = "left"
     return (
         <section className="highlight-container bg-purple-100	pt-2 ">
+            
+
+     
+        
+
+
+
+            
+            
             <div className="highlight-content pt-5">
                 
-          
+       
                 
                 <SectionContent 
                     title = "Technical Services, At Your Pace"
@@ -49,6 +65,11 @@ const Landing = () => {
                     <Button variant={ButtonVariant.secondary} text="Learn More" link="/getStarted" />
     </ButtonGroup> */}
             </div>
+
+          
+
+            
+
             <div className="highlight-image-container mb-5 ">
                 {
                   DATA.map( (item, index)=> (
@@ -66,6 +87,7 @@ const Landing = () => {
                   ))
                 }
             </div>
+
 
             <div className="flex flex-col md:flex-row px-6 bg-zinc-900	py-10 text-gray-200 rounded-2xl	shadow-2xl 	">
 
@@ -107,6 +129,8 @@ isBigHeader = {true}>
     <Integration />
 
 </div>
+
+
 
 
 
